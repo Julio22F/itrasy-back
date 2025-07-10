@@ -15,7 +15,6 @@ class MemberAdmin(ImportExportModelAdmin):
     'first_name',
     'last_name',
     'telnumber',
-    'birth_date',
     'password',
     'active_notification',
     'udid',

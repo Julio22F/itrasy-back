@@ -15,7 +15,6 @@ class MemberSerializer(serializers.ModelSerializer):
       'full_name',
       'sex',
       'telnumber',
-      'birth_date',
       'password',
       'active_notification',
       'confirmed',

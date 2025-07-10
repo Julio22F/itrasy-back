@@ -308,6 +308,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "exceptions",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -481,6 +505,22 @@
         "description": "config",
         "isExtraImport": true,
         "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "importPath": "member.models",
+        "description": "member.models",
+        "isExtraImport": true,
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "importPath": "member.models",
+        "description": "member.models",
+        "isExtraImport": true,
+        "detail": "member.models",
         "documentation": {}
     },
     {
@@ -756,6 +796,14 @@
         "documentation": {}
     },
     {
+        "label": "exception_handler",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
         "label": "swagger_auto_schema",
         "importPath": "drf_yasg.utils",
         "description": "drf_yasg.utils",
@@ -825,6 +873,38 @@
         "description": "email_verification",
         "isExtraImport": true,
         "detail": "email_verification",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "lib.loguru",
+        "description": "lib.loguru",
+        "isExtraImport": true,
+        "detail": "lib.loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "lib.loguru",
+        "description": "lib.loguru",
+        "isExtraImport": true,
+        "detail": "lib.loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "lib.loguru",
+        "description": "lib.loguru",
+        "isExtraImport": true,
+        "detail": "lib.loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "lib.loguru",
+        "description": "lib.loguru",
+        "isExtraImport": true,
+        "detail": "lib.loguru",
         "documentation": {}
     },
     {
@@ -973,6 +1053,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "include",
         "importPath": "django.conf.urls",
         "description": "django.conf.urls",
@@ -1010,6 +1098,14 @@
         "description": "drf_yasg.views",
         "isExtraImport": true,
         "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
         "documentation": {}
     },
     {
@@ -1097,6 +1193,22 @@
     },
     {
         "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
         "importPath": "django.template.loader",
         "description": "django.template.loader",
         "isExtraImport": true,
@@ -1240,6 +1352,14 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "threading",
         "kind": 6,
         "isExtraImport": true,
@@ -1289,6 +1409,22 @@
         "documentation": {}
     },
     {
+        "label": "Thread",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Lock",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
         "label": "Callable",
         "importPath": "typing",
         "description": "typing",
@@ -1306,6 +1442,22 @@
     },
     {
         "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
         "importPath": "django.core.mail",
         "description": "django.core.mail",
         "isExtraImport": true,
@@ -1824,6 +1976,15 @@
     },
     {
         "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "random",
         "importPath": "random",
         "description": "random",
         "isExtraImport": true,
@@ -2153,6 +2314,30 @@
         "documentation": {}
     },
     {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subquery",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
         "label": "Http404",
         "importPath": "django.http",
         "description": "django.http",
@@ -2190,6 +2375,209 @@
         "description": "utils.member_utils",
         "isExtraImport": true,
         "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_lab",
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "isExtraImport": true,
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_member",
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "isExtraImport": true,
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "JSONDecodeError",
+        "importPath": "json.decoder",
+        "description": "json.decoder",
+        "isExtraImport": true,
+        "detail": "json.decoder",
+        "documentation": {}
+    },
+    {
+        "label": "itemgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "MailTracking",
+        "importPath": "mail_tracking.models",
+        "description": "mail_tracking.models",
+        "isExtraImport": true,
+        "detail": "mail_tracking.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "message.models",
+        "description": "message.models",
+        "isExtraImport": true,
+        "detail": "message.models",
+        "documentation": {}
+    },
+    {
+        "label": "locale",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "locale",
+        "description": "locale",
+        "detail": "locale",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "Activity",
+        "importPath": "activity.models",
+        "description": "activity.models",
+        "isExtraImport": true,
+        "detail": "activity.models",
+        "documentation": {}
+    },
+    {
+        "label": "Invoice",
+        "importPath": "invoice.models",
+        "description": "invoice.models",
+        "isExtraImport": true,
+        "detail": "invoice.models",
+        "documentation": {}
+    },
+    {
+        "label": "AFSetup",
+        "importPath": "af_setup.models",
+        "description": "af_setup.models",
+        "isExtraImport": true,
+        "detail": "af_setup.models",
+        "documentation": {}
+    },
+    {
+        "label": "EmailConfig",
+        "importPath": "email_config.models",
+        "description": "email_config.models",
+        "isExtraImport": true,
+        "detail": "email_config.models",
+        "documentation": {}
+    },
+    {
+        "label": "Retainer",
+        "importPath": "patient.retainer.models",
+        "description": "patient.retainer.models",
+        "isExtraImport": true,
+        "detail": "patient.retainer.models",
+        "documentation": {}
+    },
+    {
+        "label": "Trackingmore",
+        "importPath": "trackingmore.models",
+        "description": "trackingmore.models",
+        "isExtraImport": true,
+        "detail": "trackingmore.models",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTIONS_FOR_EACH_TYPE",
+        "importPath": "utils.const_utils",
+        "description": "utils.const_utils",
+        "isExtraImport": true,
+        "detail": "utils.const_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Prescription",
+        "importPath": "patient.prescription.models",
+        "description": "patient.prescription.models",
+        "isExtraImport": true,
+        "detail": "patient.prescription.models",
+        "documentation": {}
+    },
+    {
+        "label": "capture_message",
+        "importPath": "sentry_sdk",
+        "description": "sentry_sdk",
+        "isExtraImport": true,
+        "detail": "sentry_sdk",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
+        "isExtraImport": true,
+        "detail": "patient.models",
+        "documentation": {}
+    },
+    {
+        "label": "Clinic",
+        "importPath": "clinic.models",
+        "description": "clinic.models",
+        "isExtraImport": true,
+        "detail": "clinic.models",
+        "documentation": {}
+    },
+    {
+        "label": "DentistClinic",
+        "importPath": "dentist_clinic.models",
+        "description": "dentist_clinic.models",
+        "isExtraImport": true,
+        "detail": "dentist_clinic.models",
+        "documentation": {}
+    },
+    {
+        "label": "DentistProfile",
+        "importPath": "dentist_profile.models",
+        "description": "dentist_profile.models",
+        "isExtraImport": true,
+        "detail": "dentist_profile.models",
+        "documentation": {}
+    },
+    {
+        "label": "ArchivedPatient",
+        "importPath": "archived_patient.models",
+        "description": "archived_patient.models",
+        "isExtraImport": true,
+        "detail": "archived_patient.models",
+        "documentation": {}
+    },
+    {
+        "label": "execute_raw_sql",
+        "importPath": "utils.raw_sql_utils",
+        "description": "utils.raw_sql_utils",
+        "isExtraImport": true,
+        "detail": "utils.raw_sql_utils",
         "documentation": {}
     },
     {
@@ -6330,6 +6718,843 @@
         "description": "member.views",
         "peekOfCode": "class MemberCreate(APIView):\n  @swagger_auto_schema(\n      request_body=MemberSerializer(many=False),\n      responses={200: MemberSerializer(many=False)}\n  )\n  def post(self, request, format=None):\n    serializer = MemberSerializer(data=request.data, many=False)\n    if serializer.is_valid():\n      # Create new member with serializer\n      new_item = Member.objects.create(**serializer.validated_data)",
         "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidUserModel",
+        "kind": 6,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "class InvalidUserModel(Exception):\n    \"\"\"The member model you provided is invalid\"\"\"\n    pass\nclass EmailTemplateNotFound(Exception):\n    \"\"\"No email template found\"\"\"\n    pass\nclass NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass\ndef my_functional_view(request, member):",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "EmailTemplateNotFound",
+        "kind": 6,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "class EmailTemplateNotFound(Exception):\n    \"\"\"No email template found\"\"\"\n    pass\nclass NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass\ndef my_functional_view(request, member):\n    # send_email(member)\n    return render('/email/verify/')\ndef _get_validated_field(field, default_type=None):",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "NotAllFieldCompiled",
+        "kind": 6,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "class NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass\ndef my_functional_view(request, member):\n    # send_email(member)\n    return render('/email/verify/')\ndef _get_validated_field(field, default_type=None):\n    if default_type is None:\n        default_type = str\n    try:",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "my_functional_view",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def my_functional_view(request, member):\n    # send_email(member)\n    return render('/email/verify/')\ndef _get_validated_field(field, default_type=None):\n    if default_type is None:\n        default_type = str\n    try:\n        d = getattr(settings, field)\n        if d == \"\" or d is None or not isinstance(d, default_type):\n            raise AttributeError",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_member_password_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_member_password_email_context(member):\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    subject = _get_validated_field('EMAIL_PASSWORD_GENERATE_MAIL_SUBJECT')\n    domain += '/' if not domain.endswith('/') else ''\n    site_domain = urlparse(domain).netloc\n    receiver_name = member.full_name()\n    context = {\n        'member': member,\n        'subject': subject,",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_member_password",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_member_password(member, thread=True):\n    with send_email_member_password_lock:\n        mail_plain = _get_validated_field('EMAIL_PASSWORD_GENERATE_MAIL_PLAIN')\n        mail_html = \"../templates/\" + _get_validated_field('EMAIL_PASSWORD_GENERATE_MAIL_HTML')\n        context = get_member_password_email_context(member)\n        args = (member, context['sender'], context['subject'], mail_plain, mail_html, context, \"ACCOUNT CREATED\")\n        if thread:\n            t = Thread(target=send_email_thread, args=args)\n            t.start()\n        else:",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_invoice_pdf_file",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_invoice_pdf_file(activity):\n    try:\n        if (activity.activity_type == Activity.ACTIVITY_LAB_SENT_INVOICE) or \\\n           (activity.activity_type == Activity.ACTIVITY_LAB_SENT_INVOICE_FINITION1) or \\\n           (activity.activity_type == Activity.ACTIVITY_LAB_SENT_INVOICE_FINITION2) or \\\n           (activity.activity_type == Activity.ACTIVITY_LAB_SENT_RETAINER_INVOICE):\n            if activity.meta_data:\n                json_meta = json.loads(activity.meta_data)\n                if ('data' in json_meta) and (json_meta['data']):\n                    data = json_meta['data']",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_finition_index",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_finition_index(activity):\n    try:\n        if activity.activity_type == Activity.ACTIVITY_LAB_SENT_INVOICE_FINITION2:\n            if activity.meta_data:\n                json_meta = json.loads(activity.meta_data)\n                if ('data' in json_meta) and (json_meta['data']):\n                    data = json_meta['data']\n                    if 'id' in data:\n                        invoice_id = data['id']\n                        invoice = Invoice.objects.filter(id=invoice_id).first()",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_shipment_carrier_link",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_shipment_carrier_link(activity):\n    if activity.activity_type != Activity.ACTIVITY_LAB_SHIPPING_ALIGNERS and \\\n        activity.activity_type != Activity.ACTIVITY_LAB_SHIPPING_RETAINER:\n        return None\n    try:\n        if activity.meta_data:\n            json_meta = json.loads(activity.meta_data)\n            if ('data' in json_meta) and (json_meta['data']):\n                data = json_meta['data']\n                if 'id' in data:",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_activity_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_activity_email_context(activity):\n    patient = activity.patient\n    source = activity.source\n    destination = activity.destination\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    patient_name = patient.full_name()\n    patient_image = \"https://aligneursfrancais.s3.eu-west-3.amazonaws.com/logos/email/utilisateur.png\"\n    receiver_name = destination.full_name()\n    domain += '/' if not domain.endswith('/') else ''",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_activity_email_context_direct",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_activity_email_context_direct(activity, third_reject, isContainkit_balance,is_team_email=False):\n    patient = activity.patient\n    member = patient.dentist\n    source = activity.source\n    destination = activity.destination\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    patient_name = patient.full_name()\n    patient_image = \"https://aligneursfrancais.s3.eu-west-3.amazonaws.com/logos/email/utilisateur.png\"\n    receiver_name = 'Hi there'",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_email_activity_template",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_email_activity_template(activity_type):\n    for act_temp in EMAILING_ACTIVITY_TEMPLATES:\n        if activity_type in act_temp['activity_types']:\n            return {\n                'template': act_temp['template'],\n                'plan': act_temp['plan']\n            }\n    return None\ndef send_email_thread(member, sender, subject, mail_plain, mail_html, context, email_type):   \n    text = render_to_string(mail_plain, context)",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_thread",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_thread(member, sender, subject, mail_plain, mail_html, context, email_type):   \n    text = render_to_string(mail_plain, context)\n    html = render_to_string(mail_html, context)\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    try:\n        Smtp_SendMail(subject, text, html, sender, member.email, password)\n    except Exception as ex:\n        logger.error(f'Failed to send email: id = {member.id}: {str(ex)} ({type(ex)}) on {ex.__traceback__.tb_lineno} line')\n        return False\n    logger.info(f'Sent an email successfully: member id = {member.id}')",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_thread_direct",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_thread_direct(member, sender, subject, mail_plain, mail_html, context, isContainkit_balance,activity, is_team_email=False):\n    text = render_to_string(mail_plain, context)\n    html = render_to_string(mail_html, context)\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    email_type = activity.activity_type\n    patient = activity.patient\n    # if member.referent == 'yasmine_ghedira':\n    #     email = 'yasmineg@aligneursfrancais.com'\n    # else:\n    #     email = 'selim@aligneursfrancais.com'",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_reminder_email_STL",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_reminder_email_STL(patient, thread=True):\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    context = {\n        'patient_name': patient.full_name().capitalize(),\n    }\n    subject = f\"Empreintes manquantes - {patient.full_name().capitalize()}\"\n    mail_html = \"../templates/\" + _get_validated_field(\"EMAIL_REMINDER_STL_HTML\")\n    text = f\"Sauf erreur de notre part, nous n’avons toujours pas reçu les STLs pour le patient : {patient.full_name().capitalize()}\"\n    args = (patient.dentist, sender, subject, text, mail_html, context)",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_reminder_email_STL_thread",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_reminder_email_STL_thread(member, sender, subject, text, mail_html, context):\n    html = render_to_string(mail_html, context)\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    try:\n        Smtp_SendMail(subject, text, html, sender, member.email, password)\n    except Exception as ex:\n        logger.error(f'Failed to send email: id = {member.id}: {str(ex)} ({type(ex)}) on {ex.__traceback__.tb_lineno} line')\n        return False\n    logger.info(f'Sent an email successfully: member id = {member.id}')\n    if is_html(text):",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_activity",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_activity(activity, thread=True):\n    if not activity.activity_type in EMAILING_ACTIVITY_TYPES:\n        # Skip emailing\n        logger.warning(f'send_email_activity: skip emailing because the type is not in emailing list: {activity.activity_type}')\n        return\n    if activity.email_sent:\n        logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n        return\n    destination = activity.destination\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_activity_direct",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_activity_direct(member, activity, third_reject, thread=True, isContainkit_balance=False, is_team_email=False):\n    if not activity.activity_type in EMAILING_ACTIVITY_TYPES:\n        # Skip emailing\n        logger.warning(f'send_email_activity: skip emailing because the type is not in emailing list: {activity.activity_type}')\n        return\n\t# if activity.email_sent:\n    #     logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n    #     return\n    destination = activity.destination\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_customer_created",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_customer_created(client):\n    # destination = \"nicky.softimad@gmail.com\"\n    destination = \"jane.b@aligneursfrancais.com\"\n    # destination = \"eg@finmanagement.co\"\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    context = {\n        'client': client,\n    }\n    subject = 'Nouveau client ajouté'",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_approved_afsetup_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_approved_afsetup_email_context(activity):\n    patient = activity.patient\n    destination = patient.dentist\n    source = get_lab()\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    patient_name = patient.full_name()\n    patient_image = \"https://aligneursfrancais.s3.eu-west-3.amazonaws.com/logos/email/utilisateur.png\"\n    receiver_name = destination.last_name\n    domain += '/' if not domain.endswith('/') else ''",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_approved_afsetup_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_approved_afsetup_email(activity, thread=True):\n    with send_approved_afsetup_email_lock:\n        if activity.email_sent:\n            logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n            return\n        destination = activity.source\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')    \n        context = get_approved_afsetup_email_context(activity)\n        subject = context['subject']\n        email_template = {",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_invoice_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_invoice_email_context(activity):\n    patient = activity.patient\n    destination = patient.dentist\n    source = get_lab()\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    patient_name = patient.full_name()\n    patient_image = \"https://aligneursfrancais.s3.eu-west-3.amazonaws.com/logos/email/utilisateur.png\"\n    receiver_name = destination.last_name\n    domain += '/' if not domain.endswith('/') else ''",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_invoice_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_invoice_email(activity, thread=True):\n    with send_invoice_email_lock:\n        if activity.email_sent:\n            logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n            return\n        destination = activity.destination\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')    \n        context = get_invoice_email_context(activity)\n        subject = context['subject']\n        email_template = {",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_invoice_30days_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_invoice_30days_email_context(invoice):\n    af_setup = invoice.af_setup\n    treatment = af_setup.treatment\n    dentist = treatment.dentist\n    patient = treatment.patient\n    destination = dentist\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    patient_name = patient.full_name()\n    patient_image = \"https://aligneursfrancais.s3.eu-west-3.amazonaws.com/logos/email/utilisateur.png\"",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_invoice_30days_email_template",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_invoice_30days_email_template(invoice):\n    return {\n        'template': _get_validated_field('EMAIL_INVOICE_30DAYS_MAIL_HTML'),\n        'plan': _get_validated_field('EMAIL_INVOICE_30DAYS_MAIL_PLAIN')\n    }\ndef need_to_send_email(invoice):\n    INTERVAL_EMAILING_DAYS = 30\n    created_at = invoice.created_at.replace(tzinfo=None)\n    if created_at < datetime(year=2022, month=3, day=1):\n        return False",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "need_to_send_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def need_to_send_email(invoice):\n    INTERVAL_EMAILING_DAYS = 30\n    created_at = invoice.created_at.replace(tzinfo=None)\n    if created_at < datetime(year=2022, month=3, day=1):\n        return False\n    iss = list(map(itemgetter(0), Invoice.INVOICE_STATUS_CHOICE))\n    if iss.index(invoice.status) >= iss.index(Invoice.PAID):\n        return False\n    if invoice.amount == 0:\n        return False",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_invoice_30days_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_invoice_30days_email(invoice, thread=True):\n    with send_invoice_30days_email_lock:\n        logger.info(f'Invoice ID: #{invoice.id}')\n        if not need_to_send_email(invoice):\n            logger.info(f\"Skip to send invoice email for 30days because it's match to condition.\")\n            return False\n        af_setup = invoice.af_setup\n        treatment = af_setup.treatment\n        dentist = treatment.dentist\n        destination = dentist",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_message",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_message(message, thread=True):\n    with send_email_message_lock:\n        sender = message.sender\n        receiver = message.receiver\n        patient = message.conversation.patient\n        from_email = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n        description = ''\n        subject = sender.full_name() + ' sent '\n        if message.type == Message.MESSAGE_TEXT:",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_contact_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_contact_context(member, message):\n    dentist_name = member.full_name()\n    dentist_email = member.email\n    context = {\n        'member': member,\n        'dentist_name': dentist_name, \n        'dentist_email': dentist_email,\n        'message': message,\n    }\n    return context",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_contact",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_contact(member, receiver, subject, message, thread=True):\n    with send_email_contact_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        context = get_contact_context(member, message)\n        subject = subject\n        email_template = {\n            'template': _get_validated_field('EMAIL_CONTACT_MAIL_HTML'),\n            'plan': _get_validated_field('EMAIL_CONTACT_MAIL_PLAIN')\n        }\n        mail_plain = email_template['plan']",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_contact_email_thread",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_contact_email_thread(member, receiver, sender, subject, mail_plain, mail_html, context):   \n    text = render_to_string(mail_plain, context)\n    html = render_to_string(mail_html, context)\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    try:\n        Smtp_SendMail(subject, text, html, sender, receiver, password)\n    except Exception as ex:\n        logger.error(f'Failed to send a contact email: id = {member.id}: {str(ex)} ({type(ex)}) on {ex.__traceback__.tb_lineno} line')\n        return False\n    logger.info(f'Sent a contact email successfully from member: member id = {member.id}')",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_csv",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_csv(email_address, file_url, title='', thread=True):\n    with send_email_csv_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = [{\n            'title': title,\n            'file': file_url\n        }]\n        context = {\n            'subject': f'Download the {title} csv file.',\n            'message': f'We attached the {title} csv file. You can download it by clicking the linked file.',",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_refered_generate_promo_code",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_refered_generate_promo_code(refered_dentist, referer_dentist, promo_code, title='', thread=True):\n    with send_email_refered_generate_promo_code_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Profitez-en ! Vous avez reçu une réduction de -50%\"\n        message = f\"\"\"\n            Bonjour Dr {refered_dentist.last_name}\n            <br>\n            <br>\n            Le DR {referer_dentist.last_name} est désormais votre parrain Aligneurs Français. ",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_referer_first_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_referer_first_email(refered_dentist, referer_dentist, title='', thread=True):\n    with send_email_referer_first_email_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Bonjour Dr {referer_dentist.last_name}, merci d'avoir parrainé l'un de vos confrères !\"\n        message = f\"\"\"\n            Bonjour Dr {referer_dentist.last_name}\n            <br>\n            <br>\n            Le parrainage du DR {refered_dentist.last_name} a bien été noté par nos équipes. ",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_referer_second_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_email_referer_second_email(refered_dentist, referer_dentist, promo_code, title='', thread=True):\n    with send_email_referer_second_email_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Bonjour Dr {referer_dentist.last_name}, merci d'avoir parrainé l'un de vos confrères !\"\n        message = f\"\"\"\n            Bonjour Dr {referer_dentist.last_name}\n            <br>\n            <br>\n            Le DR {refered_dentist.last_name} que vous avez parrainé il y a peu a commencé son premier traitement Aligneurs Français. ",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "raw_send_email_thread",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def raw_send_email_thread(email_address, sender, subject, mail_plain, mail_html, context, email_type):   \n    text = render_to_string(mail_plain, context)\n    html = render_to_string(mail_html, context)\n    password = _get_validated_field('EMAIL_HOST_PASSWORD')\n    try:\n        Smtp_SendMail(subject, text, html, sender, email_address, password)\n    except Exception as ex:\n        logger.error(f'Failed to send email: address = {email_address}: {str(ex)} ({type(ex)}) on {ex.__traceback__.tb_lineno} line')\n        return False\n    logger.info(f'Sent an email successfully: address = {email_address}')",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "dentist_promotion_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def dentist_promotion_email(dentist_profile, discount_percentage, remaining_treatments):\n    template = get_template(\"dentist_promotion_mail_body.html\")\n    params = {\n        \"dentist_name\": dentist_profile.dentist.full_name(),\n        \"dentist_status\": dentist_profile.dentist_status,\n        \"discount\": discount_percentage,\n        \"remaining_treatments\": remaining_treatments\n    }\n    message = template.render(params)\n    mail = EmailMessage(",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "dentist_demotion_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def dentist_demotion_email(dentist_profile):\n    dentist = dentist_profile.dentist\n    template = get_template(\"dentist_demotion_mail_body.html\")\n    params = {\n        \"dentist_name\": dentist.full_name(),\n    }\n    message = template.render(params)\n    mail = EmailMessage(\n        subject=\"Bonjour Dr \" + dentist.last_name + \", votre statut Aligneurs Français a changé..\",\n        body=message,",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "dentist_remaining_treatment_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def dentist_remaining_treatment_email(dentist_profile):\n    dentist = dentist_profile.dentist\n    template = get_template(\"dentist_remaining_treatments_mail_body.html\")\n    params = {\n        \"dentist_name\": dentist.full_name(),\n    }\n    message = template.render(params)\n    mail = EmailMessage(\n        subject=\"BONJOUR DR \" + dentist.last_name + \", IL NE VOUS RESTE PLUS QU'UN TRAITEMENT AVANT LE PROCHAIN PALIER DE FIDÉLITÉ !\",\n        body=message,",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_af_setup_reminder_email_context",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def get_af_setup_reminder_email_context(af_setup):\n    treatment = af_setup.treatment\n    patient = treatment.patient\n    dentist = patient.dentist\n    patient_name = patient.full_name()\n    sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n    domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n    domain += '/' if not domain.endswith('/') else ''\n    user_type = 'dentist'\n    patient_link = f'{domain}{user_type}/patients/{patient.id}'",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_af_setup_reminder_email",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_af_setup_reminder_email(af_setup, template_name):\n    context = get_af_setup_reminder_email_context(af_setup)\n    template = get_template(template_name)\n    message = template.render(context)\n    mail = EmailMessage(\n        subject=context[\"subject\"],\n        body=message,\n        from_email=context[\"sender\"],\n        to=[context[\"dentist\"].email],\n        headers={'Reply-To': context[\"dentist\"].email}",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_af_setup_reminders",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def send_af_setup_reminders():\n    # Helper function for querying AFSetup records\n    def get_af_setup_records(days_ago):\n        target_date = datetime.now() - timedelta(days=days_ago)\n        queries = Q(state=AFSetup.AF_SETUP_GENERATED) & Q(af_setup_date__date=target_date.date())\n        return AFSetup.objects.filter(queries).all()\n    # Send 1 week reminder emails\n    # for raf in get_af_setup_records(7):  # 1 week is 7 days\n    #     send_af_setup_reminder_email(raf, \"af_setup_remainder_one_week.html\")\n    #     time.sleep(5)",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_html",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def is_html(content):\n    return bool(re.search(r'<[^>]+>', content))\ndef extract_text_from_html(html_content):\n    # Enlever les balises <style> et leur contenu\n    html_content = re.sub(r'<style.*?>.*?</style>', '', html_content, flags=re.DOTALL)\n    # Enlever les balises <script> et leur contenu\n    html_content = re.sub(r'<script.*?>.*?</script>', '', html_content, flags=re.DOTALL)\n    # Extraire le titre\n    title_match = re.search(r'<title>(.*?)</title>', html_content)\n    title = title_match.group(1) if title_match else ''",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_html",
+        "kind": 2,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "def extract_text_from_html(html_content):\n    # Enlever les balises <style> et leur contenu\n    html_content = re.sub(r'<style.*?>.*?</style>', '', html_content, flags=re.DOTALL)\n    # Enlever les balises <script> et leur contenu\n    html_content = re.sub(r'<script.*?>.*?</script>', '', html_content, flags=re.DOTALL)\n    # Extraire le titre\n    title_match = re.search(r'<title>(.*?)</title>', html_content)\n    title = title_match.group(1) if title_match else ''\n    # Supprimer la balise <title> du contenu HTML\n    html_content = re.sub(r'<title>.*?</title>', '', html_content)",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "EMAILING_ACTIVITY_TYPES",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "EMAILING_ACTIVITY_TYPES = [\n#   Activity.ACTIVITY_DENTIST_ADDED_PATIENT,\n  Activity.ACTIVITY_DENTIST_STARTED_TREATMENT,\n  Activity.ACTIVITY_DENTIST_SHPPED_FOOTPRINT,  \n  Activity.ACTIVITY_DENTIST_SHIPPED_IMPRINT,\n  Activity.ACTIVITY_DENTIST_REQUIRED_AF_SETUP,\n  Activity.ACTIVITY_DENTIST_APPROVED_AF_SETUP,  \n  Activity.ACTIVITY_DENTIST_REJECTED_AF_SETUP,\n  Activity.ACTIVITY_DENTIST_RECEIVED_ALIGNERS,\n  Activity.ACTIVITY_DENTIST_GENERATE_RETAINER,",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "EMAILING_CREATED_CUSTOMER",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "EMAILING_CREATED_CUSTOMER = [\n    {\n        'template': 'EMAIL_CREATED_CUSTOMER',\n        'plan': 'EMAIL_CREATED_CUSTOMER_PLAIN',\n    }\n]\nEMAILING_ACTIVITY_TEMPLATES = [\n    {\n        'template': 'EMAIL_ACTIVITY_MAIL_HTML',\n        'plan': 'EMAIL_ACTIVITY_MAIL_PLAIN',",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "EMAILING_ACTIVITY_TEMPLATES",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "EMAILING_ACTIVITY_TEMPLATES = [\n    {\n        'template': 'EMAIL_ACTIVITY_MAIL_HTML',\n        'plan': 'EMAIL_ACTIVITY_MAIL_PLAIN',\n        'activity_types': [\n            Activity.ACTIVITY_DENTIST_SHPPED_FOOTPRINT,  \n            Activity.ACTIVITY_DENTIST_SHIPPED_IMPRINT,\n            Activity.ACTIVITY_DENTIST_REQUIRED_AF_SETUP,\n            Activity.ACTIVITY_DENTIST_RECEIVED_ALIGNERS,\n            Activity.ACTIVITY_DENTIST_GENERATE_RETAINER,",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_member_password_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_member_password_lock = Lock()\ndef send_email_member_password(member, thread=True):\n    with send_email_member_password_lock:\n        mail_plain = _get_validated_field('EMAIL_PASSWORD_GENERATE_MAIL_PLAIN')\n        mail_html = \"../templates/\" + _get_validated_field('EMAIL_PASSWORD_GENERATE_MAIL_HTML')\n        context = get_member_password_email_context(member)\n        args = (member, context['sender'], context['subject'], mail_plain, mail_html, context, \"ACCOUNT CREATED\")\n        if thread:\n            t = Thread(target=send_email_thread, args=args)\n            t.start()",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_approved_afsetup_email_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_approved_afsetup_email_lock = Lock()\ndef send_approved_afsetup_email(activity, thread=True):\n    with send_approved_afsetup_email_lock:\n        if activity.email_sent:\n            logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n            return\n        destination = activity.source\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')    \n        context = get_approved_afsetup_email_context(activity)\n        subject = context['subject']",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_invoice_email_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_invoice_email_lock = Lock()\ndef send_invoice_email(activity, thread=True):\n    with send_invoice_email_lock:\n        if activity.email_sent:\n            logger.info(f'send_email_activity: email already sent for activity {activity.id}')\n            return\n        destination = activity.destination\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')    \n        context = get_invoice_email_context(activity)\n        subject = context['subject']",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_invoice_30days_email_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_invoice_30days_email_lock = Lock()\ndef send_invoice_30days_email(invoice, thread=True):\n    with send_invoice_30days_email_lock:\n        logger.info(f'Invoice ID: #{invoice.id}')\n        if not need_to_send_email(invoice):\n            logger.info(f\"Skip to send invoice email for 30days because it's match to condition.\")\n            return False\n        af_setup = invoice.af_setup\n        treatment = af_setup.treatment\n        dentist = treatment.dentist",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_message_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_message_lock = Lock()\ndef send_email_message(message, thread=True):\n    with send_email_message_lock:\n        sender = message.sender\n        receiver = message.receiver\n        patient = message.conversation.patient\n        from_email = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n        description = ''\n        subject = sender.full_name() + ' sent '",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_contact_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_contact_lock = Lock()\ndef send_email_contact(member, receiver, subject, message, thread=True):\n    with send_email_contact_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        context = get_contact_context(member, message)\n        subject = subject\n        email_template = {\n            'template': _get_validated_field('EMAIL_CONTACT_MAIL_HTML'),\n            'plan': _get_validated_field('EMAIL_CONTACT_MAIL_PLAIN')\n        }",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_csv_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_csv_lock = Lock()\ndef send_email_csv(email_address, file_url, title='', thread=True):\n    with send_email_csv_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = [{\n            'title': title,\n            'file': file_url\n        }]\n        context = {\n            'subject': f'Download the {title} csv file.',",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_refered_generate_promo_code_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_refered_generate_promo_code_lock = Lock()\ndef send_email_refered_generate_promo_code(refered_dentist, referer_dentist, promo_code, title='', thread=True):\n    with send_email_refered_generate_promo_code_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Profitez-en ! Vous avez reçu une réduction de -50%\"\n        message = f\"\"\"\n            Bonjour Dr {refered_dentist.last_name}\n            <br>\n            <br>",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_referer_first_email_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_referer_first_email_lock = Lock()\ndef send_email_referer_first_email(refered_dentist, referer_dentist, title='', thread=True):\n    with send_email_referer_first_email_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Bonjour Dr {referer_dentist.last_name}, merci d'avoir parrainé l'un de vos confrères !\"\n        message = f\"\"\"\n            Bonjour Dr {referer_dentist.last_name}\n            <br>\n            <br>",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_referer_second_email_lock",
+        "kind": 5,
+        "importPath": "utils.email_utils",
+        "description": "utils.email_utils",
+        "peekOfCode": "send_email_referer_second_email_lock = Lock()\ndef send_email_referer_second_email(refered_dentist, referer_dentist, promo_code, title='', thread=True):\n    with send_email_referer_second_email_lock:\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        attached_files = []\n        subject = f\"Bonjour Dr {referer_dentist.last_name}, merci d'avoir parrainé l'un de vos confrères !\"\n        message = f\"\"\"\n            Bonjour Dr {referer_dentist.last_name}\n            <br>\n            <br>",
+        "detail": "utils.email_utils",
+        "documentation": {}
+    },
+    {
+        "label": "custom_exception_handler",
+        "kind": 2,
+        "importPath": "utils.error_utils",
+        "description": "utils.error_utils",
+        "peekOfCode": "def custom_exception_handler(exc, context):\n  response = exception_handler(exc, context)\n  capture_message(exc, level=\"error\")\n  # discord_track_errors(exc, context)\n  logger.error(str(context))\n  return response",
+        "detail": "utils.error_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_member_model",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def get_member_model():\n  return Member\ndef get_lab():\n  return Member.objects.filter(type=Member.LAB).order_by('id').first()\ndef get_admin():\n  return Member.objects.filter(type=Member.ADMIN).order_by('id').first()\ndef get_deactive_loyalty_dentists():\n  return Member.objects.filter(type=Member.DENTIST, deactive_loyalty=True).order_by('id')\ndef get_member(member_id):\n  return Member.objects.filter(id=member_id).first()",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_lab",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def get_lab():\n  return Member.objects.filter(type=Member.LAB).order_by('id').first()\ndef get_admin():\n  return Member.objects.filter(type=Member.ADMIN).order_by('id').first()\ndef get_deactive_loyalty_dentists():\n  return Member.objects.filter(type=Member.DENTIST, deactive_loyalty=True).order_by('id')\ndef get_member(member_id):\n  return Member.objects.filter(id=member_id).first()\ndef generate_password():\n  symbols = string.punctuation",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_admin",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def get_admin():\n  return Member.objects.filter(type=Member.ADMIN).order_by('id').first()\ndef get_deactive_loyalty_dentists():\n  return Member.objects.filter(type=Member.DENTIST, deactive_loyalty=True).order_by('id')\ndef get_member(member_id):\n  return Member.objects.filter(id=member_id).first()\ndef generate_password():\n  symbols = string.punctuation\n  password = \"\"\n  for _ in range(9):",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_deactive_loyalty_dentists",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def get_deactive_loyalty_dentists():\n  return Member.objects.filter(type=Member.DENTIST, deactive_loyalty=True).order_by('id')\ndef get_member(member_id):\n  return Member.objects.filter(id=member_id).first()\ndef generate_password():\n  symbols = string.punctuation\n  password = \"\"\n  for _ in range(9):\n    password += secrets.choice(string.ascii_lowercase)\n  password += secrets.choice(string.ascii_uppercase)",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_member",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def get_member(member_id):\n  return Member.objects.filter(id=member_id).first()\ndef generate_password():\n  symbols = string.punctuation\n  password = \"\"\n  for _ in range(9):\n    password += secrets.choice(string.ascii_lowercase)\n  password += secrets.choice(string.ascii_uppercase)\n  password += secrets.choice(string.digits)\n  password += secrets.choice(symbols)",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def generate_password():\n  symbols = string.punctuation\n  password = \"\"\n  for _ in range(9):\n    password += secrets.choice(string.ascii_lowercase)\n  password += secrets.choice(string.ascii_uppercase)\n  password += secrets.choice(string.digits)\n  password += secrets.choice(symbols)\n  return password\ndef generate_api_key(member):",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_api_key",
+        "kind": 2,
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "peekOfCode": "def generate_api_key(member):\n  # Generate a unique API key\n  unique_key = uuid.uuid4()\n  # Use the user's id to make the API key unique to them\n  unique_key = f\"{member.id}{unique_key}\"\n  # Hash the key for additional security\n  api_key = hashlib.sha256(unique_key.encode('utf-8')).hexdigest()\n  return api_key",
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "FilterPagination",
+        "kind": 6,
+        "importPath": "utils.pagination_utils",
+        "description": "utils.pagination_utils",
+        "peekOfCode": "class FilterPagination:\n    \"\"\"\n    Filtrage + Pagination optimisé.\n    - On ne transforme pas le queryset final en list pour permettre .values() plus tard.\n    - On mesure le temps et la taille mémoire via une variable temporaire.\n    - On peut utiliser .only(), .select_related(), .prefetch_related() avant la conversion.\n    \"\"\"\n    @staticmethod\n    def filter_and_pagination(request, model_reference, queries=None,\n                              order_by_array=None, special_order_by=None):",
+        "detail": "utils.pagination_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_queryset_from_request",
+        "kind": 2,
+        "importPath": "utils.pagination_utils",
+        "description": "utils.pagination_utils",
+        "peekOfCode": "def get_queryset_from_request(request, model_reference, queries=None):\n    \"\"\"\n    Filtre un queryset sans pagination, en utilisant les paramètres GET.\n    Conserve un QuerySet (pas de list) pour pouvoir appeler .values() ensuite.\n    \"\"\"\n    start_time = time.time()\n    model_fields = [field.name for field in model_reference._meta.get_fields()]\n    filter_params = request.GET\n    custom_filter = {}\n    # Construction du filtre",
+        "detail": "utils.pagination_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PER_PAGE",
+        "kind": 5,
+        "importPath": "utils.pagination_utils",
+        "description": "utils.pagination_utils",
+        "peekOfCode": "DEFAULT_PER_PAGE = 12\ndef get_queryset_from_request(request, model_reference, queries=None):\n    \"\"\"\n    Filtre un queryset sans pagination, en utilisant les paramètres GET.\n    Conserve un QuerySet (pas de list) pour pouvoir appeler .values() ensuite.\n    \"\"\"\n    start_time = time.time()\n    model_fields = [field.name for field in model_reference._meta.get_fields()]\n    filter_params = request.GET\n    custom_filter = {}",
+        "detail": "utils.pagination_utils",
+        "documentation": {}
+    },
+    {
+        "label": "join_two_queries",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def join_two_queries(first_query, second_query):\n  res = first_query\n  if second_query:\n    if res:\n      res = res & second_query\n    else:\n      res = second_query\n  return res\ndef filter_patients_by_user(request):\n  user = request.user",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "filter_patients_by_user",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def filter_patients_by_user(request):\n  user = request.user\n  patients  = Patient.objects.all()\n  if user.type == Member.DENTIST:\n    patients = patients.filter(dentist=user)\n    logger.debug(f'filtered patient by user. {patients.count()}')\n  return patients\ndef get_query_by_dentist(request):\n  if PARAM_DENTIST in request.GET:\n    dentist_id = request.GET[PARAM_DENTIST]",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_dentist",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_dentist(request):\n  if PARAM_DENTIST in request.GET:\n    dentist_id = request.GET[PARAM_DENTIST]\n    query = Q(dentist_id=dentist_id)\n    return query\n  return None\ndef get_query_by_dentist_sql(request):\n    if PARAM_DENTIST in request.GET:\n        dentist_id = request.GET[PARAM_DENTIST]\n        query = \"p.dentist_id = %s\"",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_dentist_sql",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_dentist_sql(request):\n    if PARAM_DENTIST in request.GET:\n        dentist_id = request.GET[PARAM_DENTIST]\n        query = \"p.dentist_id = %s\"\n        params = [dentist_id]\n        return {'sql': query, 'params': params}\n    return None\ndef get_query_by_user(request):\n  query = None\n  user = request.user",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_user",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_user(request):\n  query = None\n  user = request.user\n  if hasattr(user, 'type') and (user.type == Member.DENTIST):\n    query = Q(dentist=user)\n  return query\ndef get_query_by_user_sql(request):\n    user = request.user\n    if hasattr(user, 'type') and (user.type == Member.DENTIST):\n        query = \"p.dentist_id = %s\"",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_user_sql",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_user_sql(request):\n    user = request.user\n    if hasattr(user, 'type') and (user.type == Member.DENTIST):\n        query = \"p.dentist_id = %s\"\n        params = [user.id]\n        return {'sql': query, 'params': params}\n    return None\ndef get_query_by_clinic(request):\n  if PARAM_CLINIC in request.GET:\n    clinic_id = request.GET[PARAM_CLINIC]",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_clinic",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_clinic(request):\n  if PARAM_CLINIC in request.GET:\n    clinic_id = request.GET[PARAM_CLINIC]\n    # Get the related DentistProfile IDs associated with the clinic\n    dentist_profile_ids = DentistClinic.objects.filter(clinic_id=clinic_id).values_list('dentist_profile_id', flat=True)\n    # Get the associated dentist (Member) IDs\n    dentist_ids = set(DentistProfile.objects.filter(id__in=dentist_profile_ids).values_list('dentist_id', flat=True))\n    logger.debug(f'dentist_ids: {dentist_ids}')\n    # clinic = Clinic.objects.get(pk=clinic_id)\n    # cdps = clinic.clinic_dentist_profiles.all()",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_clinic_sql",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_clinic_sql(request):\n    if PARAM_CLINIC in request.GET:\n        clinic_id = request.GET[PARAM_CLINIC]\n        # Get the related DentistProfile IDs associated with the clinic\n        dentist_profile_ids = DentistClinic.objects.filter(clinic_id=clinic_id).values_list('dentist_profile_id', flat=True)\n        # Get the associated dentist (Member) IDs\n        dentist_ids = set(DentistProfile.objects.filter(id__in=dentist_profile_ids).values_list('dentist_id', flat=True))\n        if dentist_ids:\n            placeholders = ','.join(['%s'] * len(dentist_ids))\n            query = f\"p.dentist_id IN ({placeholders})\"",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_dp_query_by_dentist_name",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_dp_query_by_dentist_name(search_key):\n  query = Q(dentist__type=Member.DENTIST) & (\n    Q(dentist__first_name__icontains=search_key) | \\\n    Q(dentist__last_name__icontains=search_key)\n  )\n  return query\ndef get_query_by_user(request):\n  query = None\n  user = request.user\n  if hasattr(user, 'type') and (user.type == Member.DENTIST):",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_user",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_user(request):\n  query = None\n  user = request.user\n  if hasattr(user, 'type') and (user.type == Member.DENTIST):\n    query = Q(dentist=user)\n  return query\ndef get_query_by_archived(request):\n  query = None\n  user = request.user\n  if user is not None:  ",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_archived",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_archived(request):\n  query = None\n  user = request.user\n  if user is not None:  \n    p_ids = list(ArchivedPatient.objects.filter(member=user.id).values_list('patient_id', flat=True))\n    query = Q(id__in=p_ids)\n  return query\ndef get_query_by_type_member(request):\n  type_member = request.GET.get('type')\n  if type_member:",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_type_member",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_type_member(request):\n  type_member = request.GET.get('type')\n  if type_member:\n    query = query.filter(dentist__type=type_member)  # Filtrer les dentistes par type de membre\n  return query\nFILTER_TYPE_VALUES = [\n  'ALL',\n  'FINITION', \n  'IMPRINT',\n]",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_filter_type",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_filter_type(request):\n  from pprint import pprint\n  if PARAM_FILTER_TYPE in request.GET:\n    filter_type = request.GET[PARAM_FILTER_TYPE]\n    str_sql = None\n    if filter_type == 'FINITION':\n      str_sql = finition_patients_sql\n    elif filter_type == 'IMPRINT':\n      str_sql = imprint_patients_sql\n    if str_sql:",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_filter_team",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_filter_team(request):\n  if PARAM_FILTER_TEAM in request.GET:\n    filter_team = request.GET[PARAM_FILTER_TEAM]\n    query = Q(af_setup_team_id=filter_team) \n    return query\n  return None\ndef get_query_by_filter_type_sql(request):\n    if PARAM_FILTER_TYPE in request.GET:\n        filter_type = request.GET[PARAM_FILTER_TYPE]\n        str_sql = None",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_filter_type_sql",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_filter_type_sql(request):\n    if PARAM_FILTER_TYPE in request.GET:\n        filter_type = request.GET[PARAM_FILTER_TYPE]\n        str_sql = None\n        if filter_type == 'FINITION':\n            str_sql = finition_patients_sql\n        elif filter_type == 'IMPRINT':\n            str_sql = imprint_patients_sql\n        if str_sql:\n            items = execute_raw_sql(str_sql)",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_retainer_filter_type",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_retainer_filter_type(request):\n  if PARAM_FILTER_TYPE in request.GET:\n    filter_type = request.GET[PARAM_FILTER_TYPE]\n    str_sql = None\n    if filter_type == 'IMPRINT':\n      str_sql = retainer_imprint_patients_sql\n    if str_sql:\n      items = execute_raw_sql(str_sql)\n      patient_ids = list(map(lambda x : x['id'], items))\n      queries = Q(id__in=patient_ids)",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_by_clinicManager_OR_dentistManager",
+        "kind": 2,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "def get_query_by_clinicManager_OR_dentistManager(request):\n  query = None\n  user = request.user\n  if hasattr(user, 'type') and (user.type == Member.MANAGER):\n    # Sous-requête pour les cliniciens (clinic_id)\n    # clinic_ids = Clinic.objects.filter(manager=user).values('id')\n    # Sous-requête pour les dentistes (dentist_id)\n    dentist_ids = DentistProfile.objects.filter(manager=user).values('dentist_id')\n    # Combine les deux sous-requêtes avec OR\n    # query = Q(clinic__id__in=Subquery(clinic_ids)) | Q(dentist__in=Subquery(dentist_ids))",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PARAM_DENTIST",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "PARAM_DENTIST = 'dentist'\nPARAM_CLINIC = 'clinic'\nPARAM_FILTER_TYPE = 'filter_type'\nPARAM_FILTER_TEAM = 'filter_team'\ndef join_two_queries(first_query, second_query):\n  res = first_query\n  if second_query:\n    if res:\n      res = res & second_query\n    else:",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PARAM_CLINIC",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "PARAM_CLINIC = 'clinic'\nPARAM_FILTER_TYPE = 'filter_type'\nPARAM_FILTER_TEAM = 'filter_team'\ndef join_two_queries(first_query, second_query):\n  res = first_query\n  if second_query:\n    if res:\n      res = res & second_query\n    else:\n      res = second_query",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PARAM_FILTER_TYPE",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "PARAM_FILTER_TYPE = 'filter_type'\nPARAM_FILTER_TEAM = 'filter_team'\ndef join_two_queries(first_query, second_query):\n  res = first_query\n  if second_query:\n    if res:\n      res = res & second_query\n    else:\n      res = second_query\n  return res",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PARAM_FILTER_TEAM",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "PARAM_FILTER_TEAM = 'filter_team'\ndef join_two_queries(first_query, second_query):\n  res = first_query\n  if second_query:\n    if res:\n      res = res & second_query\n    else:\n      res = second_query\n  return res\ndef filter_patients_by_user(request):",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "FILTER_TYPE_VALUES",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "FILTER_TYPE_VALUES = [\n  'ALL',\n  'FINITION', \n  'IMPRINT',\n]\nfinition_patients_sql = \"\"\"\nSELECT c.* from (\n  SELECT DISTINCT ON (p.id)\n    p.id, t.id AS treatment_id,\n    p.type AS patient_type, ",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "finition_patients_sql",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "finition_patients_sql = \"\"\"\nSELECT c.* from (\n  SELECT DISTINCT ON (p.id)\n    p.id, t.id AS treatment_id,\n    p.type AS patient_type, \n    t.state AS treatment_state, \n    t.updated_at as treatment_updated_at\n  FROM patient AS p\n  INNER JOIN treatment AS t ON (p.id = t.patient_id) and (t.is_finition = TRUE)\n  ORDER BY p.id DESC, t.id DESC",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "imprint_patients_sql",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "imprint_patients_sql = \"\"\"\nSELECT c.* from (\n  SELECT DISTINCT ON (p.id)\n    p.id, t.id AS treatment_id,\n    p.type AS patient_type, \n    t.state AS treatment_state, \n    t.updated_at as treatment_updated_at\n  FROM patient AS p\n  INNER JOIN treatment AS t ON p.id = t.patient_id\n  INNER JOIN prescription AS pr on (t.id = pr.treatment_id) and (pr.clinic_objects ILIKE '%\"impression_type\":\"PHYSICAL_FOOTPRINT\"%')",
+        "detail": "utils.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "retainer_imprint_patients_sql",
+        "kind": 5,
+        "importPath": "utils.query_utils",
+        "description": "utils.query_utils",
+        "peekOfCode": "retainer_imprint_patients_sql = \"\"\"\nSELECT c.* from (\n  SELECT DISTINCT ON (p.id)\n    p.id, \n    p.type AS patient_type, \n    r.id AS retainer_id,\n    r.state AS retainer_state, \n    r.updated_at as retainer_updated_at\n  FROM patient AS p\n  INNER JOIN retainer AS r ON (p.id = r.patient_id) and (r.impression_type ILIKE '%PHYSICAL%')",
+        "detail": "utils.query_utils",
         "documentation": {}
     },
     {
