@@ -41,8 +41,8 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS=[
     'rest_framework',
-    'rest_framework_simplejwt',
     'drf_yasg',
+    'rest_framework_simplejwt',
     'nested_admin',
     's3direct', 
     'import_export',
@@ -54,6 +54,12 @@ LOCAL_APPS = [
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
 
 
 MIDDLEWARE = [
@@ -97,9 +103,9 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DATABASE_NAME', default='itrasy'),
+        'NAME': env('DATABASE_NAME', default='itrasyDB'),
         'USER': env('DATABASE_USER_NAME', default='postgres'),
-        'PASSWORD': env('DATABASE_PASSWORD', default='postgres'),
+        'PASSWORD': env('DATABASE_PASSWORD', default='0523faralahy02'),
         'HOST': env('DATABASE_HOST', default='localhost'),
         'PORT': env('DATABASE_PORT', default='5432'),
         'ATOMIC_REQUESTS': True,
