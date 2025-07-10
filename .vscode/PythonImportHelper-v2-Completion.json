@@ -24,6 +24,22 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -72,6 +88,38 @@
         "documentation": {}
     },
     {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
@@ -112,6 +160,22 @@
         "description": "calendar",
         "isExtraImport": true,
         "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -363,6 +427,30 @@
         "documentation": {}
     },
     {
+        "label": "Member",
+        "importPath": "member.models",
+        "description": "member.models",
+        "isExtraImport": true,
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "importPath": "member.models",
+        "description": "member.models",
+        "isExtraImport": true,
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "importPath": "member.models",
+        "description": "member.models",
+        "isExtraImport": true,
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
         "label": "MemberSerializer",
         "importPath": "member.serializers",
         "description": "member.serializers",
@@ -427,6 +515,22 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -460,6 +564,54 @@
     },
     {
         "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_resolver",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -684,6 +836,30 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "include",
         "importPath": "django.conf.urls",
         "description": "django.conf.urls",
@@ -740,14 +916,6 @@
         "documentation": {}
     },
     {
-        "label": "get_swagger_view",
-        "importPath": "rest_framework_swagger.views",
-        "description": "rest_framework_swagger.views",
-        "isExtraImport": true,
-        "detail": "rest_framework_swagger.views",
-        "documentation": {}
-    },
-    {
         "label": "views",
         "importPath": "rest_framework.authtoken",
         "description": "rest_framework.authtoken",
@@ -761,6 +929,282 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "int_to_base36",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "base36_to_int",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "base36_to_int",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "int_to_base36",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urls",
+        "importPath": "django_email_verification",
+        "description": "django_email_verification",
+        "isExtraImport": true,
+        "detail": "django_email_verification",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Thread",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib.",
+        "description": "smtplib.",
+        "detail": "smtplib.",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "constant_time_compare",
+        "importPath": "django.utils.crypto",
+        "description": "django.utils.crypto",
+        "isExtraImport": true,
+        "detail": "django.utils.crypto",
+        "documentation": {}
+    },
+    {
+        "label": "salted_hmac",
+        "importPath": "django.utils.crypto",
+        "description": "django.utils.crypto",
+        "isExtraImport": true,
+        "detail": "django.utils.crypto",
         "documentation": {}
     },
     {
@@ -869,381 +1313,381 @@
         "documentation": {}
     },
     {
-        "label": "AuthentificationConfig",
+        "label": "AuthenticationConfig",
         "kind": 6,
-        "importPath": "authentification.apps",
-        "description": "authentification.apps",
-        "peekOfCode": "class AuthentificationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentification'",
-        "detail": "authentification.apps",
+        "importPath": "authentication.apps",
+        "description": "authentication.apps",
+        "peekOfCode": "class AuthenticationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentication'",
+        "detail": "authentication.apps",
         "documentation": {}
     },
     {
         "label": "AdminBaseJSONWebTokenAuthentication",
         "kind": 6,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "class AdminBaseJSONWebTokenAuthentication(BaseAuthentication):\n    \"\"\"\n    Token based authentication using the JSON Web Token standard.\n    \"\"\"\n    def get_jwt_value(self, request):\n        pass\n    def authenticate(self, request):\n        \"\"\"\n        Returns a two-tuple of `User` and token if a valid signature has been\n        supplied using JWT-based authentication.  Otherwise returns `None`.",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "AdminJSONWebTokenAuthentication",
         "kind": 6,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "class AdminJSONWebTokenAuthentication(AdminBaseJSONWebTokenAuthentication):\n    \"\"\"\n    Clients should authenticate by passing the token key in the \"Authorization\"\n    HTTP header, prepended with the string specified in the setting\n    `JWT_AUTH_HEADER_PREFIX`. For example:\n        Authorization: JWT eyJhbGciOiAiSFMyNTYiLCAidHlwIj\n    \"\"\"\n    www_authenticate_realm = 'api'\n    def get_jwt_value(self, request):\n        auth = get_authorization_header(request).split()",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "custom_admin_authentication",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def custom_admin_authentication(request, email, password):\n  return authenticate(request, email=email, password=password)\nclass AdminBaseJSONWebTokenAuthentication(BaseAuthentication):\n    \"\"\"\n    Token based authentication using the JSON Web Token standard.\n    \"\"\"\n    def get_jwt_value(self, request):\n        pass\n    def authenticate(self, request):\n        \"\"\"",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_get_secret_key",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_get_secret_key(payload=None):\n    \"\"\"\n    For enhanced security you may want to use a secret key based on user.\n    This way you have an option to logout only this user if:\n        - token is compromised\n        - password is changed\n        - etc.\n    \"\"\"\n    if settings.ADMIN_JWT_AUTH['JWT_GET_USER_SECRET_KEY']:\n        # User = get_user_model()  # noqa: N806",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_payload_handler(user):\n    email_field = 'email'\n    email = user.email\n    warnings.warn(\n        'The following fields will be removed in the future: '\n        '`email` and `id`. ',\n        DeprecationWarning\n    )\n    exp = datetime.utcnow() + settings.ADMIN_JWT_AUTH['JWT_EXPIRATION_DELTA']\n    payload = {",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_get_id_from_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_get_id_from_payload_handler(payload):\n    \"\"\"\n    Override this function if id is formatted differently in payload\n    \"\"\"\n    warnings.warn(\n        'The following will be removed in the future. '\n        'Use `JWT_PAYLOAD_GET_USERNAME_HANDLER` instead.',\n        DeprecationWarning\n    )\n    return payload.get('id')",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_get_email_from_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_get_email_from_payload_handler(payload):\n    \"\"\"\n    Override this function if email is formatted differently in payload\n    \"\"\"\n    return payload.get('email')\ndef admin_jwt_encode_handler(payload):\n    key = settings.ADMIN_JWT_AUTH['JWT_PRIVATE_KEY'] or admin_jwt_get_secret_key(payload)\n    return jwt.encode(\n        payload,\n        key,",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_encode_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_encode_handler(payload):\n    key = settings.ADMIN_JWT_AUTH['JWT_PRIVATE_KEY'] or admin_jwt_get_secret_key(payload)\n    return jwt.encode(\n        payload,\n        key,\n        settings.ADMIN_JWT_AUTH['JWT_ALGORITHM']\n    ).decode('utf-8')\ndef admin_jwt_decode_handler(token):\n    options = {\n        'verify_exp': settings.ADMIN_JWT_AUTH['JWT_VERIFY_EXPIRATION'],",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_decode_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_decode_handler(token):\n    options = {\n        'verify_exp': settings.ADMIN_JWT_AUTH['JWT_VERIFY_EXPIRATION'],\n    }\n    # get user from token, BEFORE verification, to get user secret key\n    unverified_payload = jwt.decode(token, None, False)\n    secret_key = admin_jwt_get_secret_key(unverified_payload)\n    # str_token = token.decode('utf-8').strip()\n    str_token = str(token, 'utf-8').strip()\n    res = jwt.decode(",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "admin_jwt_response_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_admin_jwt",
-        "description": "authentification.custom_admin_jwt",
+        "importPath": "authentication.custom_admin_jwt",
+        "description": "authentication.custom_admin_jwt",
         "peekOfCode": "def admin_jwt_response_payload_handler(token, user=None, request=None):\n    \"\"\"\n    Returns the response data for both the login and refresh views.\n    Override to return a custom response such as including the\n    serialized representation of the User.\n    Example:\n    def jwt_response_payload_handler(token, user=None, request=None):\n        return {\n            'token': token,\n            'user': UserSerializer(user, context={'request': request}).data",
-        "detail": "authentification.custom_admin_jwt",
+        "detail": "authentication.custom_admin_jwt",
         "documentation": {}
     },
     {
         "label": "BaseJSONWebTokenAuthentication",
         "kind": 6,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "class BaseJSONWebTokenAuthentication(BaseAuthentication):\n    \"\"\"\n    Token based authentication using the JSON Web Token standard.\n    \"\"\"\n    def get_jwt_value(self, request):\n        pass\n    def authenticate(self, request):\n        \"\"\"\n        Returns a two-tuple of `User` and token if a valid signature has been\n        supplied using JWT-based authentication.  Otherwise returns `None`.",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "JSONWebTokenAuthentication",
         "kind": 6,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "class JSONWebTokenAuthentication(BaseJSONWebTokenAuthentication):\n    \"\"\"\n    Clients should authenticate by passing the token key in the \"Authorization\"\n    HTTP header, prepended with the string specified in the setting\n    `JWT_AUTH_HEADER_PREFIX`. For example:\n        Authorization: JWT eyJhbGciOiAiSFMyNTYiLCAidHlwIj\n    \"\"\"\n    www_authenticate_realm = 'api'\n    def get_jwt_value(self, request):\n        auth = get_authorization_header(request).split()",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_get_secret_key",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_get_secret_key(payload=None):\n    \"\"\"\n    For enhanced security you may want to use a secret key based on member.\n    This way you have an option to logout only this member if:\n        - token is compromised\n        - password is changed\n        - etc.\n    \"\"\"\n    if settings.JWT_AUTH['JWT_GET_USER_SECRET_KEY']:\n        # Member = get_member_model()  # noqa: N806",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_payload_handler(member):\n    email_field = 'email'\n    email = member.email\n    warnings.warn(\n        'The following fields will be removed in the future: '\n        '`email` and `id`. ',\n        DeprecationWarning\n    )\n    exp = datetime.utcnow() + settings.JWT_AUTH['JWT_EXPIRATION_DELTA']\n    payload = {",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_get_id_from_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_get_id_from_payload_handler(payload):\n    \"\"\"\n    Override this function if id is formatted differently in payload\n    \"\"\"\n    warnings.warn(\n        'The following will be removed in the future. '\n        'Use `JWT_PAYLOAD_GET_USERNAME_HANDLER` instead.',\n        DeprecationWarning\n    )\n    return payload.get('id')",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_get_email_from_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_get_email_from_payload_handler(payload):\n    \"\"\"\n    Override this function if email is formatted differently in payload\n    \"\"\"\n    return payload.get('email')\ndef jwt_encode_handler(payload):\n    key = settings.JWT_AUTH['JWT_PRIVATE_KEY'] or jwt_get_secret_key(payload)\n    return jwt.encode(\n        payload,\n        key,",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_encode_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_encode_handler(payload):\n    key = settings.JWT_AUTH['JWT_PRIVATE_KEY'] or jwt_get_secret_key(payload)\n    return jwt.encode(\n        payload,\n        key,\n        settings.JWT_AUTH['JWT_ALGORITHM']\n    ).decode('utf-8')\ndef jwt_decode_handler(token):\n    options = {\n        'verify_exp': settings.JWT_AUTH['JWT_VERIFY_EXPIRATION'],",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_decode_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_decode_handler(token):\n    options = {\n        'verify_exp': settings.JWT_AUTH['JWT_VERIFY_EXPIRATION'],\n    }\n    # get member from token, BEFORE verification, to get member secret key\n    unverified_payload = jwt.decode(token, None, False)\n    secret_key = jwt_get_secret_key(unverified_payload)\n    # str_token = token.decode('utf-8').strip()\n    str_token = str(token, 'utf-8').strip()\n    res = jwt.decode(",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "jwt_response_payload_handler",
         "kind": 2,
-        "importPath": "authentification.custom_jwt",
-        "description": "authentification.custom_jwt",
+        "importPath": "authentication.custom_jwt",
+        "description": "authentication.custom_jwt",
         "peekOfCode": "def jwt_response_payload_handler(token, member=None, request=None):\n    \"\"\"\n    Returns the response data for both the login and refresh views.\n    Override to return a custom response such as including the\n    serialized representation of the Member.\n    Example:\n    def jwt_response_payload_handler(token, member=None, request=None):\n        return {\n            'token': token,\n            'member': MemberSerializer(member, context={'request': request}).data",
-        "detail": "authentification.custom_jwt",
+        "detail": "authentication.custom_jwt",
         "documentation": {}
     },
     {
         "label": "IsOwnerOrReadOnly",
         "kind": 6,
-        "importPath": "authentification.custom_permissions",
-        "description": "authentification.custom_permissions",
+        "importPath": "authentication.custom_permissions",
+        "description": "authentication.custom_permissions",
         "peekOfCode": "class IsOwnerOrReadOnly(permissions.BasePermission):\n  \"\"\"\n  Object-level permission to only allow owners of an object to edit it.\n  Assumes the model instance has an `owner` attribute.\n  \"\"\"\n  def has_object_permission(self, request, view, obj):\n    return obj.owner == request.member\nclass AllowAny(permissions.BasePermission):\n    \"\"\"\n    Allow any access.",
-        "detail": "authentification.custom_permissions",
+        "detail": "authentication.custom_permissions",
         "documentation": {}
     },
     {
         "label": "AllowAny",
         "kind": 6,
-        "importPath": "authentification.custom_permissions",
-        "description": "authentification.custom_permissions",
+        "importPath": "authentication.custom_permissions",
+        "description": "authentication.custom_permissions",
         "peekOfCode": "class AllowAny(permissions.BasePermission):\n    \"\"\"\n    Allow any access.\n    This isn't strictly required, since you could use an empty\n    permission_classes list, but it's useful because it makes the intention\n    more explicit.\n    \"\"\"\n    def has_permission(self, request, view):\n        return True\nclass IsAuthenticated(permissions.BasePermission):",
-        "detail": "authentification.custom_permissions",
+        "detail": "authentication.custom_permissions",
         "documentation": {}
     },
     {
         "label": "IsAuthenticated",
         "kind": 6,
-        "importPath": "authentification.custom_permissions",
-        "description": "authentification.custom_permissions",
+        "importPath": "authentication.custom_permissions",
+        "description": "authentication.custom_permissions",
         "peekOfCode": "class IsAuthenticated(permissions.BasePermission):\n    \"\"\"\n    Allows access only to authenticated members.\n    \"\"\"\n    def has_permission(self, request, view):\n        member = request.user\n        if bool(member and member.is_authenticated):\n            return True\n        return False\nclass IsAdminUser(permissions.BasePermission):",
-        "detail": "authentification.custom_permissions",
+        "detail": "authentication.custom_permissions",
         "documentation": {}
     },
     {
         "label": "IsAdminUser",
         "kind": 6,
-        "importPath": "authentification.custom_permissions",
-        "description": "authentification.custom_permissions",
+        "importPath": "authentication.custom_permissions",
+        "description": "authentication.custom_permissions",
         "peekOfCode": "class IsAdminUser(permissions.BasePermission):\n    \"\"\"\n    Allows access only to admin members.\n    \"\"\"\n    def has_permission(self, request, view):\n        if request.user is None:\n            return False\n        try:\n            exist_is_superuser = request.user._meta.get_field('is_superuser')\n            if exist_is_superuser:",
-        "detail": "authentification.custom_permissions",
+        "detail": "authentication.custom_permissions",
         "documentation": {}
     },
     {
         "label": "LoginSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class LoginSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n      'password',\n    )\nclass RegisterSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "RegisterSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n      'type',\n      'first_name',\n      'last_name',\n      'sex',\n      'telnumber',",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "RegisterByEmailSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class RegisterByEmailSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n      'type',\n      'first_name',\n      'last_name',\n      'sex',\n      'telnumber',",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "ChangeEmailSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class ChangeEmailSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n    )\nclass ChangePasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "ChangePasswordSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class ChangePasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n      'new_password'\n    )\nclass ForgetPasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "ForgetPasswordSerializer",
         "kind": 6,
-        "importPath": "authentification.serializers",
-        "description": "authentification.serializers",
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
         "peekOfCode": "class ForgetPasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n    )",
-        "detail": "authentification.serializers",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "authentification.urls",
-        "description": "authentification.urls",
+        "importPath": "authentication.urls",
+        "description": "authentication.urls",
         "peekOfCode": "urlpatterns = [\n  path('login/', views.CustomLogin.as_view()),\n  # path('login_by_email/', views.CustomLoginByEmail.as_view()),\n  path('logout/', views.Logout.as_view()),\n  path('register/', views.Register.as_view()),\n  # path('register_by_email/', views.RegisterByEmail.as_view()),\n  path('forget_password/', views.ForgetPassword.as_view()),\n  path('change_user_info/changeMail/', views.ChangeUserInfoMail.as_view()),\n  path('change_user_info/changePassword/', views.ChangeUserInfoPassword.as_view()),\n  path('change_user_info/resetPassword/', views.ChangeUserResetPassword.as_view()),",
-        "detail": "authentification.urls",
+        "detail": "authentication.urls",
         "documentation": {}
     },
     {
         "label": "CustomLogin",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class CustomLogin(APIView):\n    permission_classes = []\n    def process_admin_user(self, request, admin, serializer):\n      admin_user = custom_admin_authentication(\n        request, \n        email=serializer.data['email'],\n        password=serializer.data['password']\n      )\n      if admin_user is None:\n        return Response(status=status.HTTP_401_UNAUTHORIZED)",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "CustomLoginByEmail",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class CustomLoginByEmail(APIView):\n    permission_classes = []\n    def process_admin_user(self, request, admin, serializer):\n      admin_user = custom_admin_authentication(\n        request, \n        email=serializer.data['email'],\n        password=serializer.data['password']\n      )\n      if admin_user is None:\n        return Response(status=status.HTTP_401_UNAUTHORIZED)",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "Logout",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class Logout(APIView):\n    permission_classes = []\n    def post(self, request, *args, **kwargs):\n        # simply delete the token to force a login\n        user = request.user\n        try:\n            if hasattr(user, 'auth_token'):\n              user.auth_token.delete()\n        except (AttributeError, ObjectDoesNotExist) as ex:\n            logger.error(f'logout error: {str(ex)} on {ex.__traceback__.tb_lineno} line')",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "Register",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class Register(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=RegisterSerializer(many=False),\n        responses={200: MemberSerializer(many=False)}\n    )\n    def post(self, request, format=None):      \n      serializer = RegisterSerializer(data=request.data, many=False)\n      if serializer.is_valid():\n        # if 'udid' in serializer.data:",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "ChangeUserInfo",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class ChangeUserInfo(APIView):\n  permission_classes = []\n  @swagger_auto_schema(\n      request_body=RegisterSerializer(many=False),\n      responses={200: MemberSerializer(many=False)}\n  )\n  def post(self, request, format=None):      \n    serializer = LoginSerializer(\n      data=request.data,\n      context={'request': request}",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "RegisterByEmail",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class RegisterByEmail(APIView):\n    permission_classes = []\n    def update_and_resend_verifiction_token(self, request, member):\n      member_serializer = MemberSerializer(member, request.data)\n      if member_serializer.is_valid():\n        member_serializer.save()\n        member.save()\n        send_email(member)\n        return Response(member_serializer.validated_data, status=status.HTTP_200_OK)\n      else:",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "ForgetPassword",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class ForgetPassword(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=ForgetPasswordSerializer(many=False),\n        responses={200: {}}\n    )\n    def post(self, request, format=None):      \n      serializer = ForgetPasswordSerializer(data=request.data, many=False)\n      if serializer.is_valid():\n        # Check validation",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "ChangeUserInfoMail",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class ChangeUserInfoMail(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=ChangeEmailSerializer(many=False),\n        responses={200: {}}\n    )\n    def post(self, request, format=None):      \n      serializer = ChangeEmailSerializer(data=request.data, many=False)\n      if serializer.is_valid():\n        # Check validation",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "ChangeUserInfoPassword",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class ChangeUserInfoPassword(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=ChangePasswordSerializer(many=False),\n        responses={200: {}}\n    )\n    def post(self, request, format=None):      \n      serializer = ChangePasswordSerializer(data=request.data, many=False)\n      if serializer.is_valid():\n        # Check validation",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "ChangeUserResetPassword",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class ChangeUserResetPassword(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=ChangePasswordSerializer(many=False),\n        responses={200: {}}\n    )\n    def post(self, request, format=None):      \n      serializer = ChangePasswordSerializer(data=request.data, many=False)\n      if serializer.is_valid():\n        # Check validation",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
         "label": "VerifyResetPasswordToken",
         "kind": 6,
-        "importPath": "authentification.views",
-        "description": "authentification.views",
+        "importPath": "authentication.views",
+        "description": "authentication.views",
         "peekOfCode": "class VerifyResetPasswordToken(APIView):\n    permission_classes = []\n    @swagger_auto_schema(\n        request_body=ChangePasswordSerializer(many=False),\n        responses={200: {}}\n    )\n    def post(self, request, format=None):\n      token = request.data['token']\n      if token:\n        success, member = verify_token(token)",
-        "detail": "authentification.views",
+        "detail": "authentication.views",
         "documentation": {}
     },
     {
@@ -1305,7 +1749,7 @@
         "kind": 5,
         "importPath": "config.settings",
         "description": "config.settings",
-        "peekOfCode": "LOCAL_APPS = [\n    'authentification',\n]\nINSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "peekOfCode": "LOCAL_APPS = [\n    'authentication',\n    'member'\n]\nINSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',",
         "detail": "config.settings",
         "documentation": {}
     },
@@ -1436,15 +1880,6 @@
         "documentation": {}
     },
     {
-        "label": "swagger_schema_view",
-        "kind": 5,
-        "importPath": "config.urls",
-        "description": "config.urls",
-        "peekOfCode": "swagger_schema_view = get_swagger_view(\n    title='itrasy API',\n    url=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),\n    urlconf=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),\n)\nschema_view = get_schema_view(\n  openapi.Info(\n    title=\"itrasy API\",\n    default_version='v1',\n    description=\"REST API for itrasy backend application\",",
-        "detail": "config.urls",
-        "documentation": {}
-    },
-    {
         "label": "schema_view",
         "kind": 5,
         "importPath": "config.urls",
@@ -1469,6 +1904,699 @@
         "description": "config.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "config.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "verified",
+        "kind": 2,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "def verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSECRET_KEY = 'i6)fwiz^ru7hj^gzk4t=i9la-gi6)s4++4um6+drg^m(g-5c_x'\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django_email_verification',\n]",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "SECRET_KEY = 'i6)fwiz^ru7hj^gzk4t=i9la-gi6)s4++4um6+drg^m(g-5c_x'\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django_email_verification',\n]\nROOT_URLCONF = 'django_email_verification.tests.urls'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django_email_verification',\n]\nROOT_URLCONF = 'django_email_verification.tests.urls'\nTEMPLATES = [",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django_email_verification',\n]\nROOT_URLCONF = 'django_email_verification.tests.urls'\nTEMPLATES = [\n    {",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django_email_verification',\n]\nROOT_URLCONF = 'django_email_verification.tests.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'tests/templates')]",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "ROOT_URLCONF = 'django_email_verification.tests.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'tests/templates')]\n        ,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'tests/templates')]\n        ,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\ndef verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\ndef verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\ndef verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\ndef verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "USE_TZ = True\ndef verified(user):\n    user.is_active = True\nEMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_VERIFIED_CALLBACK",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_VERIFIED_CALLBACK = verified\nEMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_FROM_ADDRESS",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_FROM_ADDRESS = 'rousseau.platform@gmail.com'\nEMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_MAIL_SUBJECT",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_MAIL_SUBJECT = 'Conferma la tua mail'\nEMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_MAIL_HTML",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_MAIL_HTML = 'mail.html'\nEMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_MAIL_PLAIN",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_MAIL_PLAIN = 'plainmail.txt'\nEMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_TOKEN_LIFE",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_TOKEN_LIFE = 60 * 60\nEMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PAGE_TEMPLATE",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_PAGE_TEMPLATE = 'confirm.html'\nEMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PAGE_DOMAIN",
+        "kind": 5,
+        "importPath": "email_verification.tests.settings",
+        "description": "email_verification.tests.settings",
+        "peekOfCode": "EMAIL_PAGE_DOMAIN = 'https://test.com/'",
+        "detail": "email_verification.tests.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_mail_params",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def get_mail_params(content):\n    expiry = re.findall(r'\\d{1,2}:\\d{1,2}', content)[0]\n    url = re.findall(r'(http|https)://([\\w_-]+(?:(?:\\.[\\w_-]+)+))([\\w.,@?^=%&:/~+#-]*[\\w@?^=%&/~+#-])?',\n                     content)[0][-1]\n    return url, expiry\n@pytest.fixture\ndef test_user():\n    user = get_user_model()(username='test_user', password='test_passwd', email='test@test.com')\n    return user\n@pytest.fixture",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_user",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_user():\n    user = get_user_model()(username='test_user', password='test_passwd', email='test@test.com')\n    return user\n@pytest.fixture\ndef wrong_token_template():\n    match = render_to_string('confirm.html', {'success': False, 'user': None})\n    return match\n@pytest.mark.django_db\ndef test_missing_params(test_user, settings, client):\n    with pytest.raises(NotAllFieldCompiled):",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "wrong_token_template",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def wrong_token_template():\n    match = render_to_string('confirm.html', {'success': False, 'user': None})\n    return match\n@pytest.mark.django_db\ndef test_missing_params(test_user, settings, client):\n    with pytest.raises(NotAllFieldCompiled):\n        settings.EMAIL_FROM_ADDRESS = None\n        send_email(test_user, thread=False)\n    with pytest.raises(InvalidUserModel):\n        send_email(None, thread=False)",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_params",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_missing_params(test_user, settings, client):\n    with pytest.raises(NotAllFieldCompiled):\n        settings.EMAIL_FROM_ADDRESS = None\n        send_email(test_user, thread=False)\n    with pytest.raises(InvalidUserModel):\n        send_email(None, thread=False)\n    with pytest.raises(NotAllFieldCompiled):\n        settings.EMAIL_PAGE_TEMPLATE = None\n        url = '/email/_'\n        client.get(url)",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_content",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_email_content(test_user, mailoutbox, settings):\n    test_user.is_active = False\n    send_email(test_user, thread=True)\n    time.sleep(0.5)\n    email = mailoutbox[0]\n    email_content = email.alternatives[0][0]\n    url, expiry = get_mail_params(email_content)\n    assert email.subject == settings.EMAIL_MAIL_SUBJECT, \"The subject changed\"\n    assert email.from_email == settings.EMAIL_FROM_ADDRESS, \"The from_address changed\"\n    assert email.to == [test_user.email], \"The to_address changed\"",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_custom_params",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_email_custom_params(test_user, mailoutbox):\n    s_expiry = datetime.now()\n    test_user.is_active = False\n    send_email(test_user, thread=False, custom_salt='test_salt', expiry=s_expiry)\n    email = mailoutbox[0]\n    email_content = email.alternatives[0][0]\n    _, expiry = get_mail_params(email_content)\n    expiry = expiry.split(':')\n    assert s_expiry.time().hour == int(expiry[0]) or s_expiry.time().hour - 12 == int(expiry[0])\n    assert s_expiry.time().minute == int(expiry[1])",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_link_correct",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_email_link_correct(test_user, mailoutbox, client):\n    test_user.is_active = False\n    send_email(test_user, thread=False)\n    email = mailoutbox[0]\n    email_content = email.alternatives[0][0]\n    url, _ = get_mail_params(email_content)\n    response = client.get(url)\n    match = render_to_string('confirm.html', {'success': True, 'user': test_user})\n    assert response.content.decode() == match\n@pytest.mark.django_db",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_link_wrong",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_email_link_wrong(client, wrong_token_template):\n    url = '/email/dGVzdEB0ZXN0LmNvbE-agax3s-00348f02fabc98235547361a0fe69129b3b750f5'\n    response = client.get(url)\n    assert response.content.decode() == wrong_token_template, \"Invalid token accepted\"\n    url = '/email/_'\n    response = client.get(url)\n    assert response.content.decode() == wrong_token_template, \"Short token accepted\"\n    url = '/email/dGVzdEB0ZXN0LmNvbE++-agax3sert-00=00348f02fabc98235547361a0fe69129b3b750f5'\n    response = client.get(url)\n    assert response.content.decode() == wrong_token_template, \"Long token accepted\"",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_token_different_timestamp",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_token_different_timestamp(test_user, mailoutbox, client, wrong_token_template):\n    test_user.is_active = False\n    send_email(test_user, thread=False)\n    email = mailoutbox[0]\n    email_content = email.alternatives[0][0]\n    url, _ = get_mail_params(email_content)\n    # Increment timestamp\n    token = url.split('-')\n    token[1] = int_to_base36(base36_to_int(token[1]) + 1)\n    url = '-'.join(token)",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_token_expired",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_token_expired(test_user, mailoutbox, settings, client, wrong_token_template):\n    settings.EMAIL_TOKEN_LIFE = 1\n    test_user.is_active = False\n    send_email(test_user, thread=False)\n    email = mailoutbox[0]\n    email_content = email.alternatives[0][0]\n    url, _ = get_mail_params(email_content)\n    time.sleep(2)\n    response = client.get(url)\n    assert response.content.decode() == wrong_token_template",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "test_app_config",
+        "kind": 2,
+        "importPath": "email_verification.tests.tests",
+        "description": "email_verification.tests.tests",
+        "peekOfCode": "def test_app_config():\n    from .. import apps\n    assert apps.DjangoEmailConfirmConfig.name == 'django_email_verification', \"Wrong App name\"",
+        "detail": "email_verification.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "email_verification.tests.urls",
+        "description": "email_verification.tests.urls",
+        "peekOfCode": "urlpatterns = [\n    path('email/', include(urls), name='email-endpoint'),\n]",
+        "detail": "email_verification.tests.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoEmailConfirmConfig",
+        "kind": 6,
+        "importPath": "email_verification.apps",
+        "description": "email_verification.apps",
+        "peekOfCode": "class DjangoEmailConfirmConfig(AppConfig):\n    name = 'email_verification'",
+        "detail": "email_verification.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordForm",
+        "kind": 6,
+        "importPath": "email_verification.change_password_form",
+        "description": "email_verification.change_password_form",
+        "peekOfCode": "class ChangePasswordForm(forms.Form):\n    member_id = forms.CharField(widget=forms.HiddenInput(), required=False)\n    member_email = forms.CharField(widget=forms.HiddenInput(), required=False)\n    password = forms.CharField(widget=forms.HiddenInput(), required=False)\n    new_password = forms.CharField(widget=forms.HiddenInput(), required=False)\n    success = forms.BooleanField(widget=forms.HiddenInput(), required=False)\n    def __init__(self,*args,**kwargs):\n        member_id = args[0]['member_id']\n        member_email = args[0]['member_email']\n        new_password = args[0]['new_password']",
+        "detail": "email_verification.change_password_form",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "email_verification.change_password_view",
+        "description": "email_verification.change_password_view",
+        "peekOfCode": "def change_password(request, token):\n    if request.method == 'POST':\n        form = ChangePasswordForm(request.POST)\n        if form.is_valid():\n            # Save new_password\n            new_password = form.cleaned_data['new_password']\n            member_id = form.cleaned_data['member_id']\n            member = Member.objects.filter(id=member_id).first()\n            member.password = new_password\n            member.save()",
+        "detail": "email_verification.change_password_view",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "email_verification.change_user_info_urls",
+        "description": "email_verification.change_user_info_urls",
+        "peekOfCode": "urlpatterns = [\n    path('password/done/', complete_password_reset),\n    path('password/confirm/', confirm_password_reset),\n    path('password/<str:token>', change_password),\n    path('email/done/', complete_email_reset),\n    path('email/confirm/', confirm_email_reset),\n    path('email/<str:token>', reset_email),\n    path('email/test/', complete_test)\n]",
+        "detail": "email_verification.change_user_info_urls",
+        "documentation": {}
+    },
+    {
+        "label": "send_email",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_email(member, thread=True, **kwargs):\n    try:\n        member.save()\n        if kwargs.get('custom_salt'):\n            default_token_generator.key_salt = kwargs['custom_salt']\n        expiry_ = kwargs.get('expiry')\n        token, expiry = default_token_generator.make_token(member, expiry_)\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN')\n        subject = _get_validated_field('EMAIL_MAIL_SUBJECT')",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_thread",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_email_thread(member, token, expiry, sender, domain, subject, mail_plain, mail_html, is_forget_password_request=False):\n    domain += '/' if not domain.endswith('/') else ''\n    from .views import verify\n    link = ''\n    for k, v in get_resolver(None).reverse_dict.items():\n        if k is verify and v[0][0][1][0]:\n            addr = str(v[0][0][0])\n            if is_forget_password_request:\n                link = settings.SITE_URL  + \"/reset-password-form?token=\" + token\n            else:",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_password_thread",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_email_password_thread(member, token, expiry, sender, domain, subject, mail_plain, mail_html):\n    domain += '/' if not domain.endswith('/') else ''\n    from .views import verify\n    addr = str('password/%(token)s')\n    link = domain + addr[0: addr.index('%')] + token\n    context = {'link': link, 'expiry': expiry, 'member': member}\n    text = render_to_string(mail_plain, context)\n    html = render_to_string(mail_html, context)\n    # msg = EmailMultiAlternatives(subject, text, sender, [member.email])\n    # msg.attach_alternative(html, 'text/html')",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def verify_token(token):\n    valid, member = default_token_generator.check_token(token)\n    if valid:\n        callback = _get_validated_field('EMAIL_VERIFIED_CALLBACK', default_type=Callable)\n        callback(member)\n        member.login_date = timezone.now()\n        member.save()\n        return valid, member\n    return False, None\ndef send_email_password_reset(member, is_forget_password_request=False,thread=True, **kwargs):",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_password_reset",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_email_password_reset(member, is_forget_password_request=False,thread=True, **kwargs):\n    try:\n        member.save()\n        if kwargs.get('custom_salt'):\n            default_token_generator.key_salt = kwargs['custom_salt']\n        expiry_ = kwargs.get('expiry')\n        token, expiry = default_token_generator.make_token(member, expiry_)\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN') + 'forget_password/'\n        subject = _get_validated_field('EMAIL_PASSWORD_RESET_MAIL_SUBJECT')",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_reset",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_email_reset(member, new_email, thread=True, **kwargs):\n    try:\n        member.new_email = new_email\n        member.save()\n        if kwargs.get('custom_salt'):\n            default_token_generator.key_salt = kwargs['custom_salt']\n        expiry_ = kwargs.get('expiry')\n        token, expiry = default_token_generator.make_token(member, expiry_)\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN') + 'change_user_info/'",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "send_password_reset",
+        "kind": 2,
+        "importPath": "email_verification.confirm",
+        "description": "email_verification.confirm",
+        "peekOfCode": "def send_password_reset(member, new_password, thread=True, **kwargs):\n    try:\n        member.new_password = new_password\n        member.save()\n        if kwargs.get('custom_salt'):\n            default_token_generator.key_salt = kwargs['custom_salt']\n        expiry_ = kwargs.get('expiry')\n        token, expiry = default_token_generator.make_token(member, expiry_)\n        sender = _get_validated_field('EMAIL_FROM_ADDRESS')\n        domain = _get_validated_field('EMAIL_PAGE_DOMAIN') + 'change_user_info/'",
+        "detail": "email_verification.confirm",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidUserModel",
+        "kind": 6,
+        "importPath": "email_verification.errors",
+        "description": "email_verification.errors",
+        "peekOfCode": "class InvalidUserModel(Exception):\n    \"\"\"The member model you provided is invalid\"\"\"\n    pass\nclass EmailTemplateNotFound(Exception):\n    \"\"\"No email template found\"\"\"\n    pass\nclass NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass",
+        "detail": "email_verification.errors",
+        "documentation": {}
+    },
+    {
+        "label": "EmailTemplateNotFound",
+        "kind": 6,
+        "importPath": "email_verification.errors",
+        "description": "email_verification.errors",
+        "peekOfCode": "class EmailTemplateNotFound(Exception):\n    \"\"\"No email template found\"\"\"\n    pass\nclass NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass",
+        "detail": "email_verification.errors",
+        "documentation": {}
+    },
+    {
+        "label": "NotAllFieldCompiled",
+        "kind": 6,
+        "importPath": "email_verification.errors",
+        "description": "email_verification.errors",
+        "peekOfCode": "class NotAllFieldCompiled(Exception):\n    \"\"\"Compile all the fields in the settings\"\"\"\n    pass",
+        "detail": "email_verification.errors",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "email_verification.forget_password_urls",
+        "description": "email_verification.forget_password_urls",
+        "peekOfCode": "urlpatterns = [\n    path('done/', complete_password_reset),\n    path('confirm/', confirm_password_reset),\n    path('email/<str:token>', reset_password),\n]",
+        "detail": "email_verification.forget_password_urls",
+        "documentation": {}
+    },
+    {
+        "label": "ResetEmailForm",
+        "kind": 6,
+        "importPath": "email_verification.reset_email_form",
+        "description": "email_verification.reset_email_form",
+        "peekOfCode": "class ResetEmailForm(forms.Form):\n    member_id = forms.CharField(widget=forms.HiddenInput(), required=False)\n    member_email = forms.CharField(widget=forms.HiddenInput(), required=False)\n    new_email = forms.CharField(widget=forms.HiddenInput(), required=False)\n    success = forms.BooleanField(widget=forms.HiddenInput(), required=False)\n    def __init__(self,*args,**kwargs):\n        member_id = args[0]['member_id']\n        member_email = args[0]['member_email']\n        new_email = args[0]['new_email']\n        success = args[0]['success']",
+        "detail": "email_verification.reset_email_form",
+        "documentation": {}
+    },
+    {
+        "label": "complete_test",
+        "kind": 2,
+        "importPath": "email_verification.reset_email_view",
+        "description": "email_verification.reset_email_view",
+        "peekOfCode": "def complete_test(request):\n    form = ResetEmailForm({\n            'success': False,\n            'member_id': 0,\n            'member_email': None,\n            'new_email': None\n        })\n    return render(request, '../templates/email_reset_complete.html', {'form': form})\ndef reset_email(request, token):\n    if request.method == 'POST':",
+        "detail": "email_verification.reset_email_view",
+        "documentation": {}
+    },
+    {
+        "label": "reset_email",
+        "kind": 2,
+        "importPath": "email_verification.reset_email_view",
+        "description": "email_verification.reset_email_view",
+        "peekOfCode": "def reset_email(request, token):\n    if request.method == 'POST':\n        form = ResetEmailForm(request.POST)\n        if form.is_valid():\n            # Save new_password\n            new_email = form.cleaned_data['new_email']\n            member_id = form.cleaned_data['member_id']\n            member = Member.objects.filter(id=member_id).first()\n            member.email = new_email\n            member.save()",
+        "detail": "email_verification.reset_email_view",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordForm",
+        "kind": 6,
+        "importPath": "email_verification.reset_password_form",
+        "description": "email_verification.reset_password_form",
+        "peekOfCode": "class ResetPasswordForm(forms.Form):\n    new_password = forms.CharField(max_length=32, widget=forms.PasswordInput)\n    confirm_password = forms.CharField(max_length=32, widget=forms.PasswordInput)\n    member_id = forms.CharField(widget=forms.HiddenInput(), required=False)\n    member_email = forms.CharField(widget=forms.HiddenInput(), required=False)\n    success = forms.BooleanField(widget=forms.HiddenInput(), required=False)\n    def __init__(self,*args,**kwargs):\n        member_id = args[0]['member_id']\n        member_email = args[0]['member_email']\n        success = args[0]['success']",
+        "detail": "email_verification.reset_password_form",
+        "documentation": {}
+    },
+    {
+        "label": "reset_password",
+        "kind": 2,
+        "importPath": "email_verification.reset_password_view",
+        "description": "email_verification.reset_password_view",
+        "peekOfCode": "def reset_password(request, token):\n    if request.method == 'POST':\n        form = ResetPasswordForm(request.POST)\n        if form.is_valid():\n            # Save new_password\n            new_password = form.cleaned_data['new_password']\n            member_id = form.cleaned_data['member_id']\n            member = Member.objects.filter(id=member_id).first()\n            member.password = new_password\n            member.save()",
+        "detail": "email_verification.reset_password_view",
+        "documentation": {}
+    },
+    {
+        "label": "SendMail",
+        "kind": 2,
+        "importPath": "email_verification.smtp",
+        "description": "email_verification.smtp",
+        "peekOfCode": "def SendMail(subject, text, html, from_email, to_emails, password):\n  sender_email = from_email\n  receiver_email = to_emails\n  password = password\n  message = MIMEMultipart(\"alternative\")\n  message[\"Subject\"] = subject\n  message[\"From\"] = sender_email\n  message[\"To\"] = receiver_email\n  part1 = MIMEText(text, \"plain\", _charset=\"UTF-8\")\n  part2 = MIMEText(html, \"html\", _charset=\"UTF-8\")",
+        "detail": "email_verification.smtp",
+        "documentation": {}
+    },
+    {
+        "label": "sender_email",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "sender_email = \"potikuru.master@gmail.com\"\nreceiver_email = \"ninjadev999@gmail.com\"\npassword = 'LpZA6Tv2'\nmessage = MIMEMultipart(\"alternative\")\nmessage[\"Subject\"] = \"multipart test\"\nmessage[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "receiver_email",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "receiver_email = \"ninjadev999@gmail.com\"\npassword = 'LpZA6Tv2'\nmessage = MIMEMultipart(\"alternative\")\nmessage[\"Subject\"] = \"multipart test\"\nmessage[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "password = 'LpZA6Tv2'\nmessage = MIMEMultipart(\"alternative\")\nmessage[\"Subject\"] = \"multipart test\"\nmessage[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "message = MIMEMultipart(\"alternative\")\nmessage[\"Subject\"] = \"multipart test\"\nmessage[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:\nwww.realpython.com\"\"\"",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "message[\"Subject\"]",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "message[\"Subject\"] = \"multipart test\"\nmessage[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:\nwww.realpython.com\"\"\"\nhtml = \"\"\"\\",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "message[\"From\"]",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "message[\"From\"] = sender_email\nmessage[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:\nwww.realpython.com\"\"\"\nhtml = \"\"\"\\\n<html>",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "message[\"To\"]",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "message[\"To\"] = receiver_email\n# Create the plain-text and HTML version of your message\ntext = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:\nwww.realpython.com\"\"\"\nhtml = \"\"\"\\\n<html>\n  <body>",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "text = \"\"\"\\\nHi,\nHow are you?\nReal Python has many great tutorials:\nwww.realpython.com\"\"\"\nhtml = \"\"\"\\\n<html>\n  <body>\n    <p>Hi,<br>\n       How are you?<br>",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "html = \"\"\"\\\n<html>\n  <body>\n    <p>Hi,<br>\n       How are you?<br>\n       <a href=\"http://www.realpython.com\">Real Python</a> \n       has many great tutorials.\n    </p>\n  </body>\n</html>",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "part1",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "part1 = MIMEText(text, \"plain\")\npart2 = MIMEText(html, \"html\")\n# Add HTML/plain-text parts to MIMEMultipart message\n# The email client will try to render the last part first\nmessage.attach(part1)\nmessage.attach(part2)\n# Create secure connection with server and send email\ncontext = ssl.create_default_context()\nwith smtplib.SMTP_SSL(\"smtp.gmail.com\", 465, context=context) as server:\n    server.login(sender_email, password)",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "part2",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "part2 = MIMEText(html, \"html\")\n# Add HTML/plain-text parts to MIMEMultipart message\n# The email client will try to render the last part first\nmessage.attach(part1)\nmessage.attach(part2)\n# Create secure connection with server and send email\ncontext = ssl.create_default_context()\nwith smtplib.SMTP_SSL(\"smtp.gmail.com\", 465, context=context) as server:\n    server.login(sender_email, password)\n    server.sendmail(",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "kind": 5,
+        "importPath": "email_verification.smtp_test",
+        "description": "email_verification.smtp_test",
+        "peekOfCode": "context = ssl.create_default_context()\nwith smtplib.SMTP_SSL(\"smtp.gmail.com\", 465, context=context) as server:\n    server.login(sender_email, password)\n    server.sendmail(\n        sender_email, receiver_email, message.as_string()\n    )\n    server.close",
+        "detail": "email_verification.smtp_test",
+        "documentation": {}
+    },
+    {
+        "label": "EmailVerificationTokenGenerator",
+        "kind": 6,
+        "importPath": "email_verification.token",
+        "description": "email_verification.token",
+        "peekOfCode": "class EmailVerificationTokenGenerator:\n    \"\"\"\n    Strategy object used to generate and check tokens for the password\n    reset mechanism.\n    \"\"\"\n    key_salt = \"django-email-verification.token\"\n    algorithm = None\n    secret = settings.SECRET_KEY\n    def make_token(self, member, expiry=None):\n        \"\"\"",
+        "detail": "email_verification.token",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "kind": 5,
+        "importPath": "email_verification.token",
+        "description": "email_verification.token",
+        "peekOfCode": "default_token_generator = EmailVerificationTokenGenerator()",
+        "detail": "email_verification.token",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "email_verification.urls",
+        "description": "email_verification.urls",
+        "peekOfCode": "urlpatterns = [\n    path('<str:token>', verify)\n]",
+        "detail": "email_verification.urls",
+        "documentation": {}
+    },
+    {
+        "label": "verify",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def verify(request, token):\n    try:\n        template = settings.EMAIL_PAGE_TEMPLATE\n        if not isinstance(template, str):\n            raise AttributeError\n        success, member = verify_token(token)\n        return render(request, template, {'success': success, 'member': member, 'request': request})\n    except AttributeError:\n        raise NotAllFieldCompiled('EMAIL_PAGE_TEMPLATE field not found')\ndef verify_password_reset(request, token):",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def verify_password_reset(request, token):\n    try:\n        template = settings.PASSWORD_RESET_CONFIRM_TEMPLATE\n        if not isinstance(template, str):\n            raise AttributeError\n        success, member = verify_token(token)\n        return render(request, template, {'success': success, 'member': member, 'request': request})\n    except AttributeError:\n        raise NotAllFieldCompiled('EMAIL_PAGE_TEMPLATE field not found')\ndef verify_mailladdress_reset(request, token):",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "verify_mailladdress_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def verify_mailladdress_reset(request, token):\n    try:\n        template = settings.MAIL_RESET_CONFIRM_TEMPLATE\n        if not isinstance(template, str):\n            raise AttributeError\n        success, member = verify_token(token)\n        return render(request, template, {'success': success, 'member': member, 'request': request})\n    except AttributeError:\n        raise NotAllFieldCompiled('EMAIL_PAGE_TEMPLATE field not found')\ndef confirm_password_reset(request, member):",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_password_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def confirm_password_reset(request, member):\n    template = settings.PASSWORD_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'success': True, 'member': member, 'request': request})\ndef complete_password_reset(request, member):\n    template = settings.PASSWORD_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'member': member, 'request': request})\ndef confirm_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'success': True, 'member': member, 'request': request})\ndef complete_email_reset(request, member):",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "complete_password_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def complete_password_reset(request, member):\n    template = settings.PASSWORD_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'member': member, 'request': request})\ndef confirm_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'success': True, 'member': member, 'request': request})\ndef complete_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'member': member, 'request': request})",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_email_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def confirm_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'success': True, 'member': member, 'request': request})\ndef complete_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'member': member, 'request': request})",
+        "detail": "email_verification.views",
+        "documentation": {}
+    },
+    {
+        "label": "complete_email_reset",
+        "kind": 2,
+        "importPath": "email_verification.views",
+        "description": "email_verification.views",
+        "peekOfCode": "def complete_email_reset(request, member):\n    template = settings.MAILADDRESS_RESET_COMPLETE_TEMPLATE\n    return render(request, template, {'member': member, 'request': request})",
+        "detail": "email_verification.views",
         "documentation": {}
     },
     {

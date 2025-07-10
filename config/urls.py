@@ -7,7 +7,8 @@ from django.conf.urls.static import static, serve
 from django.conf import settings
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
-from rest_framework_swagger.views import get_swagger_view
+#Je l'ai commenté
+# from rest_framework_swagger.views import get_swagger_view
 from rest_framework import permissions
 from rest_framework.authtoken import views
 from decouple import config as env
@@ -21,11 +22,11 @@ from email_verification import change_user_info_urls
 
 # handler404 = error404
 
-swagger_schema_view = get_swagger_view(
-    title='itrasy API',
-    url=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),
-    urlconf=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),
-)
+# swagger_schema_view = get_swagger_view(
+#     title='itrasy API',
+#     url=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),
+#     urlconf=env('SWAGGER_BASE_URL', default='https://app.itrasy.com/'),
+# )
 
 schema_view = get_schema_view(
   openapi.Info(
