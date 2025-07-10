@@ -68,7 +68,7 @@ urlpatterns = [
     path('s3direct/', include('s3direct.urls')),
     # Members
     path('api/v1/member/', include('member.urls')),
-    path('api/v1/dentist_profile/', include('dentist_profile.urls')),
+    # path('api/v1/dentist_profile/', include('dentist_profile.urls')),
     # path(r'^api/v1/message/', include('message.urls')),
 
    

@@ -6,7 +6,7 @@ import warnings
 from calendar import timegm
 from datetime import datetime
 from rest_framework import exceptions
-from rest_framework_jwt.settings import api_settings
+# from rest_framework_jwt.settings import api_settings
 from django.utils.encoding import smart_str
 from rest_framework.authentication import (
     BaseAuthentication, get_authorization_header

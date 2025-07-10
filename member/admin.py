@@ -26,7 +26,7 @@ class MemberAdmin(ImportExportModelAdmin):
   lds = list(fields)
   lds.remove('image')
   lds.remove('password')
-  lds.remove('new_password')
+#   lds.remove('new_password')
   
   list_display = lds
   readonly_fields = [
@@ -36,7 +36,7 @@ class MemberAdmin(ImportExportModelAdmin):
     'created_at',
   ]
   list_display_links = list_display
-  list_per_page = settings.ADMIN_LIST_PER_PAGE
+#   list_per_page = settings.ADMIN_LIST_PER_PAGE
   sfs = list(list_display)
   sfs.remove('image_tag')
   search_fields = sfs

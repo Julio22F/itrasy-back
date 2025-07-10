@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from drf_yasg.utils import swagger_auto_schema
 from django.contrib.auth.models import User
 from member.models import Member
-from dentist_profile.models import DentistProfile
+# from dentist_profile.models import DentistProfile
 from member.serializers import MemberSerializer
 from .serializers import (
   LoginSerializer,
@@ -53,9 +53,9 @@ class CustomLogin(APIView):
         raise AuthenticationFailed('Identifiants invalides, veuillez réessayer.')
         # return Response(status=status.HTTP_401_UNAUTHORIZED)
       
-      dentist_profile = DentistProfile.objects.filter(dentist=member).first()
-      if dentist_profile:
-          dentist_profile.check_discount_expiry()
+      # dentist_profile = DentistProfile.objects.filter(dentist=member).first()
+      # if dentist_profile:
+      #     dentist_profile.check_discount_expiry()
       member.login_date = datetime.now()
       member.save()
       payload = jwt_payload_handler(member)
