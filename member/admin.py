@@ -18,7 +18,6 @@ class MemberAdmin(ImportExportModelAdmin):
     'password',
     'active_notification',
     'udid',
-    'login_date',
     'updated_at',
     'created_at',
   )
