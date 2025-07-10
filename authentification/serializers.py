@@ -48,7 +48,6 @@ class ChangeEmailSerializer(serializers.ModelSerializer):
     model = Member
     fields = (
       'email',
-      'new_email'
     )
 
 class ChangePasswordSerializer(serializers.ModelSerializer):

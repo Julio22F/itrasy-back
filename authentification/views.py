@@ -394,7 +394,8 @@ class VerifyResetPasswordToken(APIView):
       if token:
         success, member = verify_token(token)
         member_id = member.id if member else 0
-        new_email = member.new_email if member else None
+        # new_email = member.new_email if member else None
+        new_email = None
         member_email = member.email if member else None  
 
         if member_id:

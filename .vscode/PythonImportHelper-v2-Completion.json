@@ -40,46 +40,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
@@ -227,6 +187,22 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "api_settings",
         "importPath": "rest_framework_jwt.settings",
         "description": "rest_framework_jwt.settings",
@@ -304,6 +280,14 @@
         "description": "rest_framework.authentication",
         "isExtraImport": true,
         "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
         "documentation": {}
     },
     {
@@ -427,6 +411,38 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -451,11 +467,27 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "format_suffix_patterns",
         "importPath": "rest_framework.urlpatterns",
         "description": "rest_framework.urlpatterns",
         "isExtraImport": true,
         "detail": "rest_framework.urlpatterns",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -475,11 +507,35 @@
         "documentation": {}
     },
     {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
         "label": "swagger_auto_schema",
         "importPath": "drf_yasg.utils",
         "description": "drf_yasg.utils",
         "isExtraImport": true,
         "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "DentistProfile",
+        "importPath": "dentist_profile.models",
+        "description": "dentist_profile.models",
+        "isExtraImport": true,
+        "detail": "dentist_profile.models",
         "documentation": {}
     },
     {
@@ -620,6 +676,22 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
         "label": "include",
         "importPath": "django.conf.urls",
         "description": "django.conf.urls",
@@ -660,6 +732,14 @@
         "documentation": {}
     },
     {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
         "label": "get_swagger_view",
         "importPath": "rest_framework_swagger.views",
         "description": "rest_framework_swagger.views",
@@ -684,21 +764,108 @@
         "documentation": {}
     },
     {
+        "label": "ImportExportModelAdmin",
+        "importPath": "import_export.admin",
+        "description": "import_export.admin",
+        "isExtraImport": true,
+        "detail": "import_export.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MinLengthValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "mark_safe",
+        "importPath": "django.utils.safestring",
+        "description": "django.utils.safestring",
+        "isExtraImport": true,
+        "detail": "django.utils.safestring",
+        "documentation": {}
+    },
+    {
+        "label": "S3DirectField",
+        "importPath": "s3direct.fields",
+        "description": "s3direct.fields",
+        "isExtraImport": true,
+        "detail": "s3direct.fields",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Max",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "FilterPagination",
+        "importPath": "utils.pagination_utils",
+        "description": "utils.pagination_utils",
+        "isExtraImport": true,
+        "detail": "utils.pagination_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_queryset_from_request",
+        "importPath": "utils.pagination_utils",
+        "description": "utils.pagination_utils",
+        "isExtraImport": true,
+        "detail": "utils.pagination_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password",
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "isExtraImport": true,
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_api_key",
+        "importPath": "utils.member_utils",
+        "description": "utils.member_utils",
+        "isExtraImport": true,
+        "detail": "utils.member_utils",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "MemberConfig",
-        "kind": 6,
-        "importPath": "Member.apps",
-        "description": "Member.apps",
-        "peekOfCode": "class MemberConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Member'",
-        "detail": "Member.apps",
         "documentation": {}
     },
     {
@@ -949,7 +1116,7 @@
         "kind": 6,
         "importPath": "authentification.serializers",
         "description": "authentification.serializers",
-        "peekOfCode": "class ChangeEmailSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n      'new_email'\n    )\nclass ChangePasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member",
+        "peekOfCode": "class ChangeEmailSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'email',\n    )\nclass ChangePasswordSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (",
         "detail": "authentification.serializers",
         "documentation": {}
     },
@@ -1302,6 +1469,78 @@
         "description": "config.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "config.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "MemberAdmin",
+        "kind": 6,
+        "importPath": "member.admin",
+        "description": "member.admin",
+        "peekOfCode": "class MemberAdmin(ImportExportModelAdmin):\n  fields = (\n    'id',\n    'image',\n    'image_tag',\n    'email',\n    'type',\n    'first_name',\n    'last_name',\n    'telnumber',",
+        "detail": "member.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MemberConfig",
+        "kind": 6,
+        "importPath": "member.apps",
+        "description": "member.apps",
+        "peekOfCode": "class MemberConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'member'",
+        "detail": "member.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "kind": 6,
+        "importPath": "member.models",
+        "description": "member.models",
+        "peekOfCode": "class Member(models.Model):\n    ADMIN = 'ADMIN'\n    USER = 'USER'\n    MEMBER_TYPE = (\n        (ADMIN, ADMIN),\n        (USER, USER),\n    )\n    image = S3DirectField(dest='member_images', blank=True)\n    email = models.CharField(max_length=60, blank=False)\n    type = models.CharField(choices=MEMBER_TYPE, max_length=15, blank=False)",
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "MemberSerializer",
+        "kind": 6,
+        "importPath": "member.serializers",
+        "description": "member.serializers",
+        "peekOfCode": "class MemberSerializer(serializers.ModelSerializer):\n  class Meta:\n    model = Member\n    fields = (\n      'id',\n      'image',\n      'email',\n      'type',\n      'first_name',\n      'last_name',",
+        "detail": "member.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "member.urls",
+        "description": "member.urls",
+        "peekOfCode": "urlpatterns = [\n  path('all/', views.MemberList.as_view()),\n  path('create/', views.MemberCreate.as_view()),\n  path('<int:pk>/', views.MemberDetail.as_view()),\n]",
+        "detail": "member.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MemberList",
+        "kind": 6,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "class MemberList(APIView):\n  permission_classes = []\n  @swagger_auto_schema(\n    manual_parameters=FilterPagination.generate_pagination_params(),\n    responses={200: MemberSerializer(many=True)}\n  )\n  def get(self, request, format=None):\n    resultset = FilterPagination.get_paniation_data(\n      request,\n      Member,",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "MemberDetail",
+        "kind": 6,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "class MemberDetail(APIView):\n  def get_object(self, pk):\n    try:\n      return Member.objects.get(pk=pk)\n    except Member.DoesNotExist:\n      raise Http404\n  @swagger_auto_schema(\n    responses={200: MemberSerializer(many=False)}\n  )\n  def get(self, request, pk, format=None):",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "MemberCreate",
+        "kind": 6,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "class MemberCreate(APIView):\n  @swagger_auto_schema(\n      request_body=MemberSerializer(many=False),\n      responses={200: MemberSerializer(many=False)}\n  )\n  def post(self, request, format=None):\n    serializer = MemberSerializer(data=request.data, many=False)\n    if serializer.is_valid():\n      # Create new member with serializer\n      new_item = Member.objects.create(**serializer.validated_data)",
+        "detail": "member.views",
         "documentation": {}
     },
     {
