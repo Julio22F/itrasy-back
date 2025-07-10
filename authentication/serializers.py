@@ -9,7 +9,6 @@ class LoginSerializer(serializers.ModelSerializer):
       'password',
     )
 
-
 class RegisterSerializer(serializers.ModelSerializer):
   class Meta:
     model = Member
@@ -18,10 +17,8 @@ class RegisterSerializer(serializers.ModelSerializer):
       'type',
       'first_name',
       'last_name',
-      'sex',
       'telnumber',
       'password',
-      'plat_form',
       'udid',
     )
 
@@ -34,8 +31,8 @@ class RegisterByEmailSerializer(serializers.ModelSerializer):
       'type',
       'first_name',
       'last_name',
-      'sex',
       'telnumber',
+      'birth_date',
       'password',
       'plat_form',
       'udid',

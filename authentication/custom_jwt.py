@@ -153,10 +153,7 @@ def jwt_payload_handler(member):
         'last_name': member.last_name,
         'telnumber': member.telnumber,
         'image': member.image,
-        'sex': member.sex,
-        'api_key': member.api_key,
         'exp': exp,
-        'is_edit_viewer': member.is_edit_viewer
     }
     if hasattr(member, 'email'):
         payload['email'] = member.email
@@ -203,11 +200,16 @@ def jwt_get_email_from_payload_handler(payload):
 
 def jwt_encode_handler(payload):
     key = settings.JWT_AUTH['JWT_PRIVATE_KEY'] or jwt_get_secret_key(payload)
+    # return jwt.encode(
+    #     payload,
+    #     key,
+    #     settings.JWT_AUTH['JWT_ALGORITHM']
+    # ).decode('utf-8')
     return jwt.encode(
         payload,
         key,
         settings.JWT_AUTH['JWT_ALGORITHM']
-    ).decode('utf-8')
+    )
 
 
 def jwt_decode_handler(token):
