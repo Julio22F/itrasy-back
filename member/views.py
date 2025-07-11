@@ -15,14 +15,16 @@ from .serializers import (
   MemberSerializer
 )
 
+from rest_framework.permissions import IsAuthenticated
 
 
 from utils.member_utils import generate_password, generate_api_key
 # from utils.email_utils import send_email_member_password
 
 class MemberList(APIView):
-  permission_classes = []
-
+  # permission_classes = []
+  permission_classes = [IsAuthenticated]
+  
   @swagger_auto_schema(
     manual_parameters=FilterPagination.generate_pagination_params(),
     responses={200: MemberSerializer(many=True)}
