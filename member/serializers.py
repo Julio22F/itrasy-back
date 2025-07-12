@@ -3,23 +3,26 @@ from .models import Member
 
 
 class MemberSerializer(serializers.ModelSerializer):
+  followers = serializers.SerializerMethodField()
+  
   class Meta:
     model = Member
     fields = (
       'id',
-      'image',
+      # 'image',
       'email',
       'type',
       'first_name',
       'last_name',
       'telnumber',
-      'password',
-      'active_notification',
-      'udid',
-      'login_date',
-      'is_valid_email',
+      # 'password',
+      # 'active_notification',
+      # 'udid',
+      # 'login_date',
+      # 'is_valid_email',
       'updated_at',
       'created_at',
+      'followers'
     )
     read_only_fields = (
       'id',
@@ -27,3 +30,8 @@ class MemberSerializer(serializers.ModelSerializer):
       'updated_at',
       'created_at',
     )
+    
+    
+  def get_followers(self, obj):
+        followers = obj.followers.all()
+        return [{'id': f.id, 'email': f.email, 'first_name': f.first_name, 'last_name': f.last_name} for f in followers]

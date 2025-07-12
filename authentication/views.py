@@ -33,19 +33,19 @@ from rest_framework.exceptions import AuthenticationFailed
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
-class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
-    @classmethod
-    def get_token(cls, user):
-        token = super().get_token(user)
+# class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+#     @classmethod
+#     def get_token(cls, user):
+#         token = super().get_token(user)
 
-        # Tu peux ajouter des champs personnalisés ici si tu veux
-        token['email'] = user.email
-        # token['username'] = user.username
+#         # Tu peux ajouter des champs personnalisés ici si tu veux
+#         token['email'] = user.email
+#         # token['username'] = user.username
 
-        return token
+#         return token
 
-class CustomTokenObtainPairView(TokenObtainPairView):
-    serializer_class = CustomTokenObtainPairSerializer
+# class CustomTokenObtainPairView(TokenObtainPairView):
+#     serializer_class = CustomTokenObtainPairSerializer
 
 class CustomLogin(APIView):
     permission_classes = []

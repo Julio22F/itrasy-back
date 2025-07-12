@@ -92,3 +92,63 @@ class MemberCreate(APIView):
       new_serializer = MemberSerializer(new_item, many=False)
       return Response(new_serializer.data, status=status.HTTP_201_CREATED)
     return Response({'error': serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+class FollowMultipleMembersView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        ids = request.data.get("member_ids", [])
+        if not isinstance(ids, list):
+            return Response({'error': 'member_ids doit être une liste'}, status=status.HTTP_400_BAD_REQUEST)
+
+        current_user = request.user
+        followed_count = 0
+
+        print(f"current_user, {current_user}")
+        
+        for member_id in ids:
+            try:
+                member = Member.objects.get(id=member_id)
+                if member != current_user:
+                    current_user.following.add(member)
+                    followed_count += 1
+            except Member.DoesNotExist:
+                continue
+
+        return Response({'message': f'{followed_count} membres suivis.'})
+
+
+class AddFollowersAPIView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    
+    def post(self, request, format=None):
+        current_user = request.user 
+        member_ids = request.data.get("member_ids", [])
+
+        if not isinstance(member_ids, list):
+            return Response({'error': 'member_ids doit être une liste.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        new_followers = []
+
+        for member_id in member_ids:
+            try:
+                member = Member.objects.get(pk=member_id)
+                if member != current_user:
+                    # On ajoute l'utilisateur connecté dans la liste "following" de ces membres
+                    member.following.add(current_user)
+                    new_followers.append({
+                        'id': member.id,
+                        'email': member.email,
+                        'first_name': member.first_name,
+                        'last_name': member.last_name
+                    })
+            except Member.DoesNotExist:
+                continue
+
+        return Response({
+            'message': f'{len(new_followers)} membres vous suivent maintenant.',
+            'followers': new_followers
+        }, status=status.HTTP_200_OK)

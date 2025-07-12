@@ -12,20 +12,22 @@
 {
   "dataset": [
     {
-      "id": 2,
-      "image": "test",
-      "email": "test@example.com",
-      "type": "ADMIN",
-      "first_name": "test",
-      "last_name": "test",
+      "id": 3,
+      "email": "juliofaralahy23.com",
+      "type": "USER",
+      "first_name": "Julio",
+      "last_name": "FARALAHY",
       "telnumber": "0320000000",
-      "password": "motdepasse123",
-      "active_notification": true,
-      "udid": "abc123",
-      "login_date": null,
-      "is_valid_email": true,
-      "updated_at": "2025-07-10T17:05:39.861009Z",
-      "created_at": "2025-07-10T17:04:55.504050Z"
+      "updated_at": "2025-07-11T06:18:18.198382Z",
+      "created_at": "2025-07-10T18:27:30.543467Z",
+      "followers": [
+        {
+            "id": 2,
+            "email": "test@example.com",
+            "first_name": "test",
+            "last_name": "test"
+        }
+      ]
     }
   ],
   "pagination": {

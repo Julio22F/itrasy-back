@@ -25,6 +25,14 @@ class Member(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+
+    followers = models.ManyToManyField(
+        'self',
+        symmetrical=False,
+        related_name='following',
+        blank=True
+    )
+
     class Meta:
         managed = True
         db_table = 'member'
