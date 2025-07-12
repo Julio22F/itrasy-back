@@ -47,14 +47,27 @@ THIRD_PARTY_APPS=[
     'nested_admin',
     's3direct', 
     'import_export',
+    
+    'channels',  
+    
 ]
 
 LOCAL_APPS = [
     'authentication',
-    'member'
+    'member',
+    'realtime',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
+
+ASGI_APPLICATION = 'config.asgi.application'
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer",  # Pour dev, Redis conseillé en prod
+    },
+}
+
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': (

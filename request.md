@@ -49,16 +49,15 @@
 
 ```json
 {
-  "image": "str",
-  "email": "juliofaralahy23.com",
-  "type": "USER",
-  "first_name": "Julio",
-  "last_name": "FARALAHY",
-  "telnumber": "0320000000",
-  "password": "12345678",
-  "active_notification": true,
-  "udid": "abc123",
-  "is_valid_email": true
+  "id": 2,
+    "email": "test@example.com",
+    "type": "ADMIN",
+    "first_name": "test",
+    "last_name": "test",
+    "telnumber": "0320000000",
+    "updated_at": "2025-07-11T17:19:18.384666Z",
+    "created_at": "2025-07-10T17:04:55.504050Z",
+    "followers": []
 }
 ```
 
