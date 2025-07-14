@@ -35,7 +35,7 @@ class BaseJSONWebTokenAuthentication(BaseAuthentication):
 
         try:
             payload = jwt_decode_handler(jwt_value)
-        except jwt.ExpiredSignature:
+        except jwt.ExpiredSignatureError:
             msg = _('Signature has expired.')
             raise exceptions.AuthenticationFailed(msg)
         except jwt.DecodeError:

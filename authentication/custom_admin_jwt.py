@@ -37,7 +37,7 @@ class AdminBaseJSONWebTokenAuthentication(BaseAuthentication):
             return None
         try:
             payload = jwt_decode_handler(jwt_value)
-        except jwt.ExpiredSignature:
+        except jwt.ExpiredSignatureErrorError:
             msg = _('Signature has expired.')
             raise exceptions.AuthenticationFailed(msg)
         except jwt.DecodeError:
