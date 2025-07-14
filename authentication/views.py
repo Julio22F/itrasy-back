@@ -89,10 +89,11 @@ class CustomLogin(APIView):
       )
       serializer.is_valid(raise_exception=True)
       member = None
+      
       if ('email' in serializer.data) and (not serializer.data['email'] is None):
         # Check members for general user.
         member = Member.objects.filter(email__iexact=serializer.data['email']).first()
-      print(member)
+      print(f"member {member}")
       if member is None:
         # Check admin user.
         admin = User.objects.filter(email__iexact=serializer.data['email']).first()

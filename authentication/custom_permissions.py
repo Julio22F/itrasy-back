@@ -37,6 +37,8 @@ class IsAuthenticated(permissions.BasePermission):
 
     def has_permission(self, request, view):
         member = request.user
+        print(f"has_permission2 {member}")
+        
         if bool(member and member.is_authenticated):
             return True
         return False

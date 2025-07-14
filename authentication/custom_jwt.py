@@ -128,7 +128,6 @@ def jwt_get_secret_key(payload=None):
         - etc.
     """
     if settings.JWT_AUTH['JWT_GET_USER_SECRET_KEY']:
-        # Member = get_member_model()  # noqa: N806
         member = Member.objects.get(id=payload.get('id'))
         key = str(settings.JWT_AUTH['JWT_GET_USER_SECRET_KEY'](member))
         return key
@@ -212,25 +211,49 @@ def jwt_encode_handler(payload):
     )
 
 
-def jwt_decode_handler(token):
+def jwt_decode_handler(token):    
     options = {
         'verify_exp': settings.JWT_AUTH['JWT_VERIFY_EXPIRATION'],
     }
+    
     # get member from token, BEFORE verification, to get member secret key
-    unverified_payload = jwt.decode(token, None, False)
+    
+    # unverified_payload = jwt.decode(token, None, False)
+    
+    unverified_payload = jwt.decode(
+        token,
+        options={"verify_signature": False}
+    )
+
+    
     secret_key = jwt_get_secret_key(unverified_payload)
+    
+    
     # str_token = token.decode('utf-8').strip()
     str_token = str(token, 'utf-8').strip()
+    
+    
+    # res = jwt.decode(
+    #     str_token,
+    #     settings.JWT_AUTH['JWT_PUBLIC_KEY'] or secret_key,
+    # trop d'argument algorithms, vu que ce n'est pas nommée alors que la 3em position est pour algorithms
+    #     # settings.JWT_AUTH['JWT_VERIFY'],
+    #     options=options,
+    #     leeway=settings.JWT_AUTH['JWT_LEEWAY'],
+    #     audience=settings.JWT_AUTH['JWT_AUDIENCE'],
+    #     issuer=settings.JWT_AUTH['JWT_ISSUER'],
+    #     algorithms=[settings.JWT_AUTH['JWT_ALGORITHM']]
+    # )
     res = jwt.decode(
         str_token,
-        settings.JWT_AUTH['JWT_PUBLIC_KEY'] or secret_key,
-        settings.JWT_AUTH['JWT_VERIFY'],
+        key=settings.JWT_AUTH['JWT_PUBLIC_KEY'] or secret_key,
+        algorithms=[settings.JWT_AUTH['JWT_ALGORITHM']],
         options=options,
         leeway=settings.JWT_AUTH['JWT_LEEWAY'],
         audience=settings.JWT_AUTH['JWT_AUDIENCE'],
         issuer=settings.JWT_AUTH['JWT_ISSUER'],
-        algorithms=[settings.JWT_AUTH['JWT_ALGORITHM']]
     )
+
     return res
 
 

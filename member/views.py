@@ -15,8 +15,8 @@ from .serializers import (
   MemberSerializer
 )
 
-from rest_framework.permissions import IsAuthenticated
-
+# from rest_framework.permissions import IsAuthenticated
+from authentication.custom_permissions import IsAuthenticated
 
 from utils.member_utils import generate_password, generate_api_key
 # from utils.email_utils import send_email_member_password
@@ -30,6 +30,7 @@ class MemberList(APIView):
     responses={200: MemberSerializer(many=True)}
   )
   def get(self, request, format=None):
+    print(f"*********** {request.user}")
     resultset = FilterPagination.get_paniation_data(
       request,
       Member,
