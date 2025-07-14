@@ -21,25 +21,25 @@ class ESP32MessageReceiver(APIView):
         except Member.DoesNotExist:
             return Response({"error": "Membre non trouvé"}, status=404)
 
-        # channel_layer = get_channel_layer()
-        # for follower in sender.followers.all():
-        #     async_to_sync(channel_layer.group_send)(
-        #         f"user_{follower.id}",
-        #         {
-        #             "type": "send_notification",
-        #             "message": message,
-        #             "from": sender.email
-        #         }
-        #     )
         channel_layer = get_channel_layer()
-        async_to_sync(channel_layer.group_send)(
-            "test_group",  # Même nom que dans connect()
-            {
-                "type": "send_notification",
-                "message": message,
-                "from": sender.email
-            }
-        )
+        for follower in sender.followers.all():
+            async_to_sync(channel_layer.group_send)(
+                f"user_{follower.id}",
+                {
+                    "type": "send_notification",
+                    "message": message,
+                    "from": sender.email
+                }
+            )
+        # channel_layer = get_channel_layer()
+        # async_to_sync(channel_layer.group_send)(
+        #     "test_group",  # Même nom que dans connect()
+        #     {
+        #         "type": "send_notification",
+        #         "message": message,
+        #         "from": sender.email
+        #     }
+        # )
 
 
         return Response({"status": "message relayed"}, status=200)
