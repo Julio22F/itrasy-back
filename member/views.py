@@ -141,7 +141,7 @@ class FollowingListView(APIView):
     def get(self, request):
         user = request.user
         following = user.following.all()
-        serializer = FollowingMemberSerializer(following, many=True)
+        serializer = MemberSerializer(following, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
       
       
