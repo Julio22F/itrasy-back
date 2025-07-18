@@ -26,13 +26,13 @@ class MemberList(APIView):
   permission_classes = []
   # permission_classes = [IsAuthenticated]
   
-  @swagger_auto_schema(
-    manual_parameters=FilterPagination.generate_pagination_params(),
-    responses={200: MemberSerializer(many=True)}
-  )
+  # @swagger_auto_schema(
+  #   manual_parameters=FilterPagination.generate_pagination_params(),
+  #   responses={200: MemberSerializer(many=True)}
+  # )
   def get(self, request, format=None):
     print(f"*********** {request.user}")
-    resultset = FilterPagination.get_paniation_data(
+    resultset = FilterPagination.get_pagination_data(
       request,
       Member,
       MemberSerializer,
