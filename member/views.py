@@ -12,7 +12,8 @@ from utils.pagination_utils import (
 
 from .models import Member
 from .serializers import (
-  MemberSerializer
+  MemberSerializer,
+  FollowingMemberSerializer
 )
 
 # from rest_framework.permissions import IsAuthenticated
@@ -133,6 +134,17 @@ class FollowMultipleMembersView(APIView):
 
         return Response({'message': f'{followed_count} membres suivis.'})
 
+
+class FollowingListView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        user = request.user
+        following = user.following.all()
+        serializer = FollowingMemberSerializer(following, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+      
+      
 
 class AddFollowersAPIView(APIView):
     permission_classes = [IsAuthenticated]

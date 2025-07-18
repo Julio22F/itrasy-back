@@ -10,6 +10,8 @@ urlpatterns = [
   
   # Follow des membres entré en input
   path('follow/', views.FollowMultipleMembersView.as_view()),
+  path('following/all/', views.FollowingListView.as_view()),
+  
   # Forcé des membres entré en input à nous suivre
   path('add-followers/', views.AddFollowersAPIView.as_view()),
 ]
