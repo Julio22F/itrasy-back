@@ -22,8 +22,8 @@ from utils.member_utils import generate_password, generate_api_key
 # from utils.email_utils import send_email_member_password
 
 class MemberList(APIView):
-  # permission_classes = []
-  permission_classes = [IsAuthenticated]
+  permission_classes = []
+  # permission_classes = [IsAuthenticated]
   
   @swagger_auto_schema(
     manual_parameters=FilterPagination.generate_pagination_params(),
@@ -42,17 +42,30 @@ class MemberList(APIView):
 
 
 class MemberDetail(APIView):
-  def get_object(self, pk):
+  def get_object(self, pk=None, user=None):
     try:
-      return Member.objects.get(pk=pk)
+      # return Member.objects.get(pk=pk)
+      if pk is not None:
+          return Member.objects.get(pk=pk)
+      elif user is not None:
+          return Member.objects.get(pk=user.id)
+      else:
+          raise Http404
+        
     except Member.DoesNotExist:
       raise Http404
 
   @swagger_auto_schema(
     responses={200: MemberSerializer(many=False)}
   )
-  def get(self, request, pk, format=None):
-    item = self.get_object(pk)
+  def get(self, request, pk=None, format=None):
+    # item = self.get_object(pk)
+    if pk is not None:
+        item = self.get_object(pk=pk)
+    else:
+        item = self.get_object(user=request.user)
+            
+            
     serializer = MemberSerializer(item)
     return Response(serializer.data, status=status.HTTP_200_OK)
 

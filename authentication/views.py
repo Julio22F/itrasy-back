@@ -87,6 +87,8 @@ class CustomLogin(APIView):
         data=request.data,
         context={'request': request}
       )
+      print(f"request ***************** {request.data}")
+      
       serializer.is_valid(raise_exception=True)
       member = None
       
