@@ -135,6 +135,28 @@ class FollowMultipleMembersView(APIView):
         return Response({'message': f'{followed_count} membres suivis.', 'followed': True})
 
 
+
+class UnfollowMemberView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, pk):
+        current_user = request.user
+
+        try:
+            member = Member.objects.get(id=pk)
+
+            if member == current_user:
+                return Response({'error': "Vous ne pouvez pas vous désuivre vous-même."},
+                                status=status.HTTP_400_BAD_REQUEST)
+
+            current_user.following.remove(member)
+            return Response({'message': f'Vous ne suivez plus {member.first_name} {member.last_name}.', 'unfollowed': True})
+        
+        except Member.DoesNotExist:
+            return Response({'error': "Membre introuvable."}, status=status.HTTP_404_NOT_FOUND)
+          
+          
+      
 class FollowingListView(APIView):
     permission_classes = [IsAuthenticated]
 
@@ -178,3 +200,38 @@ class AddFollowersAPIView(APIView):
             'message': f'{len(new_followers)} membres vous suivent maintenant.',
             'followers': new_followers
         }, status=status.HTTP_200_OK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+class ESP32DataView(APIView):
+    permission_classes = [] 
+
+    def post(self, request, *args, **kwargs):
+        try:
+            data = request.data  # ou json.loads(request.body)
+            # Exemple : {'temperature': 25.6, 'humidity': 50.3}
+            
+            print(f'data ******************* {data}')
+            
+            # temperature = data.get('temperature')
+            # humidity = data.get('humidity')
+
+            # if temperature is None or humidity is None:
+            #     return Response({'error': 'Missing data'}, status=status.HTTP_400_BAD_REQUEST)
+
+            # print(f"Received from ESP32 => Temp: {temperature}, Humidity: {humidity}")
+
+            return Response({'message': 'Data received successfully'}, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
