@@ -71,8 +71,6 @@ urlpatterns = [
     # path('api/v1/dentist_profile/', include('dentist_profile.urls')),
     # path(r'^api/v1/message/', include('message.urls')),
 
-    path('api/v1/esp32/', include('realtime.urls')),
-   
     # Default url
     # path(r'^$', api_home, name='api_home'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

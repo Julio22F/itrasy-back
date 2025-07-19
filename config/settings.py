@@ -61,7 +61,6 @@ THIRD_PARTY_APPS=[
 LOCAL_APPS = [
     'authentication',
     'member',
-    'realtime',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
@@ -70,12 +69,12 @@ ASGI_APPLICATION = 'config.asgi.application'
 
 CHANNEL_LAYERS = {
     "default": {
-        # "BACKEND": "channels.layers.InMemoryChannelLayer",  # Pour dev, Redis conseillé en prod
+        "BACKEND": "channels.layers.InMemoryChannelLayer",  # Pour dev, Redis conseillé en prod
         
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
-        },
+        # 'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        # 'CONFIG': {
+        #     "hosts": [('127.0.0.1', 6379)],
+        # },
     },
 }
 
@@ -171,7 +170,7 @@ MIDDLEWARE = [
 
 
 CORS_ORIGIN_ALLOW_ALL = True
-
+# CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'config.urls'
 

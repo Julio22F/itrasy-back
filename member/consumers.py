@@ -23,12 +23,16 @@ class NotificationConsumer(AsyncWebsocketConsumer):
 
     async def receive(self, text_data):
         data = json.loads(text_data)
-        message_type = data.get('type')
         lat = data.get('lat')
         lon = data.get('lon')
-        num = data.get('num')
 
-        # Obtenir les followers
+        message_to_send = {
+            'type': 'localisation',
+            'lat': lat,
+            'lon': lon,
+            'from': self.member_id,
+        }
+
         followers = await sync_to_async(self.get_followers)(self.member_id)
 
         for follower_id in followers:
@@ -36,15 +40,10 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 f"member_{follower_id}",
                 {
                     'type': 'send_notification',
-                    'message': {
-                        'type': message_type,
-                        'lat': lat,
-                        'lon': lon,
-                        'num': num,
-                        'from': self.member_id,
-                    }
+                    'message': message_to_send
                 }
             )
+
 
     async def send_notification(self, event):
         await self.send(text_data=json.dumps(event["message"]))
