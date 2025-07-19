@@ -112,3 +112,61 @@
 ```
 
 ---
+
+
+
+
+## 🔍 Follow un member ou plusieurs members
+
+- **URL** : `http://127.0.0.1:8000/api/v1/member/follow/`
+- **Méthode HTTP** : `POST`
+- **Requête (format JSON)** :
+
+```json
+{
+  "member_ids": [1,2]
+}
+```
+
+
+## 🔍 Récupérer la liste des following
+
+- **URL** : `http://127.0.0.1:8000/api/v1/member/following/all/`
+- **Méthode HTTP** : `GET`
+- **Réponse (format JSON)** :
+
+```json
+[
+    {
+        "id": 2,
+        "email": "test@example.com",
+        "type": "ADMIN",
+        "first_name": "test",
+        "last_name": "test",
+        "telnumber": "0320000000",
+        "updated_at": "2025-07-18T22:52:31.077131Z",
+        "created_at": "2025-07-10T17:04:55.504050Z",
+        "followers": [
+            {
+                "id": 4,
+                "email": "juliofaralahy02@gmail.com",
+                "first_name": "Julio02",
+                "last_name": "FARALAHY02",
+                "telnumber": "0324501801"
+            },
+            {
+                "id": 3,
+                "email": "juliofaralahy23.com",
+                "first_name": "Julio",
+                "last_name": "FARALAHY",
+                "telnumber": "0320000000"
+            }
+        ]
+    },
+    {
+      "....": "autre personne"
+    }
+]
+```
+
+---

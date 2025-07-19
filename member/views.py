@@ -121,7 +121,7 @@ class FollowMultipleMembersView(APIView):
         current_user = request.user
         followed_count = 0
 
-        print(f"current_user, {current_user}")
+        print(f"ids, {ids}")
         
         for member_id in ids:
             try:
@@ -132,7 +132,7 @@ class FollowMultipleMembersView(APIView):
             except Member.DoesNotExist:
                 continue
 
-        return Response({'message': f'{followed_count} membres suivis.'})
+        return Response({'message': f'{followed_count} membres suivis.', 'followed': True})
 
 
 class FollowingListView(APIView):
