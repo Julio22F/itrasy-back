@@ -45,6 +45,8 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS=[
+    'daphne', # Pour gerer les ASGI
+    
     'rest_framework',
     'drf_yasg',
     'rest_framework_simplejwt',
@@ -54,7 +56,7 @@ THIRD_PARTY_APPS=[
     
     'channels',  
     
-    'corsheaders',
+    'corsheaders', # CORS
     
 ]
 
@@ -65,6 +67,7 @@ LOCAL_APPS = [
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
 
+# Daphne
 ASGI_APPLICATION = 'config.asgi.application'
 
 CHANNEL_LAYERS = {
@@ -161,16 +164,28 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware', # CORS
+    
+    
+    
 ]
 
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:5173",
+#     "http://localhost:8000",
+#     "http://127.0.0.1:8000",
 # ]
 
 
 CORS_ORIGIN_ALLOW_ALL = True
-# CORS_ALLOW_ALL_ORIGINS = True
+
+# Configuration CORS
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = ['*']
+CORS_ALLOW_METHODS = ['*']
+
+
 
 ROOT_URLCONF = 'config.urls'
 

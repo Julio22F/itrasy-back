@@ -18,15 +18,15 @@ from member.routing import websocket_urlpatterns
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
-    # "websocket": AuthMiddlewareStack(
-    #     URLRouter(
-    #         member.routing.websocket_urlpatterns
-    #     )
-    # ),
-    
-    "websocket": AllowedHostsOriginValidator(
-        URLRouter(member.routing.websocket_urlpatterns)
+    "websocket": AuthMiddlewareStack(
+        URLRouter(
+            member.routing.websocket_urlpatterns
+        )
     ),
+    
+    # "websocket": AllowedHostsOriginValidator(
+    #     URLRouter(member.routing.websocket_urlpatterns)
+    # ),
     
     #  "websocket": AllowedOriginMiddleware(
     #     AuthMiddlewareStack(
