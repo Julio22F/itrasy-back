@@ -6,8 +6,12 @@ from asgiref.sync import sync_to_async
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         self.member_id = self.scope['url_route']['kwargs']['member_id']
-        self.group_name = f"member_{self.member_id}"
         
+        if self.member_id == "all":
+            self.group_name = "all_members"
+        else:
+            self.group_name = f"member_{self.member_id}"
+
         await self.channel_layer.group_add(
             self.group_name,
             self.channel_name
@@ -22,6 +26,9 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         )
 
     async def receive(self, text_data):
+        if self.member_id == "all":
+            return
+
         data = json.loads(text_data)
         lat = data.get('lat')
         lon = data.get('lon')
@@ -30,9 +37,10 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             'type': 'localisation',
             'lat': lat,
             'lon': lon,
-            'from': self.member_id,
+            'from': int(self.member_id),
         }
 
+        # Envoyer aux followers du membre
         followers = await sync_to_async(self.get_followers)(self.member_id)
 
         for follower_id in followers:
@@ -44,6 +52,14 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 }
             )
 
+        # Envoyer aussi au groupe global
+        await self.channel_layer.group_send(
+            "all_members",
+            {
+                'type': 'send_notification',
+                'message': message_to_send
+            }
+        )
 
     async def send_notification(self, event):
         await self.send(text_data=json.dumps(event["message"]))
