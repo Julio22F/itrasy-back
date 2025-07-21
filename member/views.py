@@ -167,6 +167,15 @@ class FollowingListView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
       
       
+class FollowersListView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        user = request.user
+        followers = user.followers.all()
+        serializer = MemberSerializer(followers, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+      
 
 class AddFollowersAPIView(APIView):
     permission_classes = [IsAuthenticated]

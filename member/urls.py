@@ -14,6 +14,9 @@ urlpatterns = [
   path('unfollow/<int:pk>/', views.UnfollowMemberView.as_view()),
   #Get all following
   path('following/all/', views.FollowingListView.as_view()),
+  #Get all followers
+  path('followers/all/', views.FollowersListView.as_view()),
+
   
   # Forcé des membres entré en input à nous suivre
   path('add-followers/', views.AddFollowersAPIView.as_view()),

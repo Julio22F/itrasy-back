@@ -2,6 +2,7 @@ import json
 from channels.generic.websocket import AsyncWebsocketConsumer
 from .models import Member
 from asgiref.sync import sync_to_async
+from django.http import Http404
 
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
@@ -33,14 +34,23 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         lat = data.get('lat')
         lon = data.get('lon')
 
-        message_to_send = {
-            'type': 'localisation',
-            'lat': lat,
-            'lon': lon,
-            'from': int(self.member_id),
+        member_obj = await sync_to_async(self.get_object)(pk=int(self.member_id))
+
+        userInformation = {
+            "id": member_obj.id,
+            "email": member_obj.email,   
+            "first_name": member_obj.first_name,
+            "last_name": member_obj.last_name,
+            "telnumber": member_obj.telnumber,   
         }
 
-        # Envoyer aux followers du membre
+        message_to_send = {
+            # 'type': 'localisation',
+            'lat': lat,
+            'lon': lon,
+            'from': userInformation,
+        }
+
         followers = await sync_to_async(self.get_followers)(self.member_id)
 
         for follower_id in followers:
@@ -52,7 +62,6 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 }
             )
 
-        # Envoyer aussi au groupe global
         await self.channel_layer.group_send(
             "all_members",
             {
@@ -70,3 +79,17 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             return list(member.following.all().values_list('id', flat=True))
         except Member.DoesNotExist:
             return []
+        
+        
+    def get_object(self, pk=None, user=None):
+        try:
+            # return Member.objects.get(pk=pk)
+            if pk is not None:
+                return Member.objects.get(pk=pk)
+            elif user is not None:
+                return Member.objects.get(pk=user.id)
+            else:
+                raise Http404
+            
+        except Member.DoesNotExist:
+            raise Http404
