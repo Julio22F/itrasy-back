@@ -1,6 +1,6 @@
 import json
 from channels.generic.websocket import AsyncWebsocketConsumer
-from .models import Member
+from member.models import Member
 from asgiref.sync import sync_to_async
 from django.http import Http404
 

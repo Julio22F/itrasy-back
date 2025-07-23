@@ -209,38 +209,3 @@ class AddFollowersAPIView(APIView):
             'message': f'{len(new_followers)} membres vous suivent maintenant.',
             'followers': new_followers
         }, status=status.HTTP_200_OK)
-
-
-
-
-
-
-
-
-
-
-
-
-
-class ESP32DataView(APIView):
-    permission_classes = [] 
-
-    def post(self, request, *args, **kwargs):
-        try:
-            data = request.data  # ou json.loads(request.body)
-            # Exemple : {'temperature': 25.6, 'humidity': 50.3}
-            
-            print(f'data ******************* {data}')
-            
-            # temperature = data.get('temperature')
-            # humidity = data.get('humidity')
-
-            # if temperature is None or humidity is None:
-            #     return Response({'error': 'Missing data'}, status=status.HTTP_400_BAD_REQUEST)
-
-            # print(f"Received from ESP32 => Temp: {temperature}, Humidity: {humidity}")
-
-            return Response({'message': 'Data received successfully'}, status=status.HTTP_200_OK)
-
-        except Exception as e:
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

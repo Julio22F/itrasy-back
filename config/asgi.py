@@ -8,24 +8,24 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
-import member.routing
+import notification.routing
 
 
 from channels.security.websocket import AllowedHostsOriginValidator
 from channels.routing import ProtocolTypeRouter, URLRouter
 from config.middleware import AllowedOriginMiddleware
-from member.routing import websocket_urlpatterns
+from notification.routing import websocket_urlpatterns
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
     "websocket": AuthMiddlewareStack(
         URLRouter(
-            member.routing.websocket_urlpatterns
+            notification.routing.websocket_urlpatterns
         )
     ),
     
     # "websocket": AllowedHostsOriginValidator(
-    #     URLRouter(member.routing.websocket_urlpatterns)
+    #     URLRouter(notification.routing.websocket_urlpatterns)
     # ),
     
     #  "websocket": AllowedOriginMiddleware(

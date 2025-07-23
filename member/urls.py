@@ -20,8 +20,4 @@ urlpatterns = [
   
   # Forcé des membres entré en input à nous suivre
   path('add-followers/', views.AddFollowersAPIView.as_view()),
-  
-  
-  
-  path('esp32-data/', views.ESP32DataView.as_view(), name='esp32-data'),
 ]
