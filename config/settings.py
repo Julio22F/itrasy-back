@@ -36,6 +36,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 DJANGO_APPS = [
+    'daphne', # Pour gerer les ASGI et doit toujours etre en haut
+    # pour éviter "?: (daphne.E001) Daphne must be listed before django.contrib.staticfiles in INSTALLED_APPS."
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,7 +47,6 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS=[
-    'daphne', # Pour gerer les ASGI
     
     'rest_framework',
     'drf_yasg',
