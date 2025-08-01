@@ -209,3 +209,21 @@ class AddFollowersAPIView(APIView):
             'message': f'{len(new_followers)} membres vous suivent maintenant.',
             'followers': new_followers
         }, status=status.HTTP_200_OK)
+        
+        
+        
+class SaveExpoTokenView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, format=None):
+        token = request.data.get("token")
+        if not token:
+            return Response({'error': 'Le token est requis'}, status=status.HTTP_400_BAD_REQUEST)
+
+        member = request.user
+        member.expo_push_token = token
+        member.save()
+
+        return Response({'message': 'Token enregistré avec succès'}, status=status.HTTP_200_OK)
+
+

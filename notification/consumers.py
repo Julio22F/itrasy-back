@@ -3,6 +3,7 @@ from channels.generic.websocket import AsyncWebsocketConsumer
 from member.models import Member
 from asgiref.sync import sync_to_async
 from django.http import Http404
+import requests
 
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
@@ -53,7 +54,25 @@ class NotificationConsumer(AsyncWebsocketConsumer):
 
         followers = await sync_to_async(self.get_followers)(self.member_id)
 
+        # for follower_id in followers:
+        #     await self.channel_layer.group_send(
+        #         f"member_{follower_id}",
+        #         {
+        #             'type': 'send_notification',
+        #             'message': message_to_send
+        #         }
+        #     )
         for follower_id in followers:
+            follower = await sync_to_async(Member.objects.get)(pk=follower_id)
+            
+            if follower.expo_push_token:
+                self.send_push_notification(
+                    follower.expo_push_token,
+                    title="Nouvelle localisation",
+                    body=f"{member_obj.first_name} a partagé sa position",
+                    data={"lat": lat, "lon": lon}
+                )
+
             await self.channel_layer.group_send(
                 f"member_{follower_id}",
                 {
@@ -93,3 +112,17 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             
         except Member.DoesNotExist:
             raise Http404
+        
+
+    def send_push_notification(self, token, title, body, data=None):
+        payload = {
+            "to": token,
+            "sound": "default",
+            "title": title,
+            "body": body,
+            "data": data or {}
+        }
+        response = requests.post("https://exp.host/--/api/v2/push/send", json=payload)
+        print("Push sent:", response.json())
+        print("Push sent:", payload)
+

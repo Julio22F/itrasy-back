@@ -20,4 +20,7 @@ urlpatterns = [
   
   # Forcé des membres entré en input à nous suivre
   path('add-followers/', views.AddFollowersAPIView.as_view()),
+  
+  
+  path('save-expo-token/', views.SaveExpoTokenView.as_view()),
 ]

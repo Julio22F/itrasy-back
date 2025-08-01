@@ -25,7 +25,8 @@ class Member(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
-
+    expo_push_token = models.CharField(max_length=255, blank=True, null=True)
+    
     followers = models.ManyToManyField(
         'self',
         symmetrical=False,
