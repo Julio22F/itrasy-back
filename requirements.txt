@@ -20,6 +20,7 @@ django-s3direct==2.0.3
 djangorestframework==3.16.0
 djangorestframework_simplejwt==5.5.0
 drf-yasg==1.21.10
+gunicorn==23.0.0
 hyperlink==21.0.0
 idna==3.10
 incremental==24.7.2
@@ -38,7 +39,7 @@ pytz==2025.2
 PyYAML==6.0.2
 redis==6.2.0
 requests==2.32.4
-# rest-framework-swagger==0.0.1
+rest-framework-swagger==0.0.1
 service-identity==24.2.0
 sqlparse==0.5.3
 tablib==3.8.0
