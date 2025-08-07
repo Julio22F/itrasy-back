@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from django.http import Http404
 from rest_framework.views import APIView
 from drf_yasg import openapi
-from drf_yasg.utils import swagger_auto_schema
+# from drf_yasg.utils import swagger_auto_schema
 
 from utils.pagination_utils import (
   FilterPagination
@@ -56,9 +56,9 @@ class MemberDetail(APIView):
     except Member.DoesNotExist:
       raise Http404
 
-  @swagger_auto_schema(
-    responses={200: MemberSerializer(many=False)}
-  )
+  # @swagger_auto_schema(
+  #   responses={200: MemberSerializer(many=False)}
+  # )
   def get(self, request, pk=None, format=None):
     # item = self.get_object(pk)
     if pk is not None:
@@ -70,10 +70,10 @@ class MemberDetail(APIView):
     serializer = MemberSerializer(item)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
-  @swagger_auto_schema(
-    request_body=MemberSerializer(many=False),
-    responses={200: MemberSerializer(many=False)}
-  )
+  # @swagger_auto_schema(
+  #   request_body=MemberSerializer(many=False),
+  #   responses={200: MemberSerializer(many=False)}
+  # )
   def put(self, request, pk, format=None):
     item = self.get_object(pk)
     serializer = MemberSerializer(item, data=request.data)
@@ -89,10 +89,10 @@ class MemberDetail(APIView):
 
 
 class MemberCreate(APIView):
-  @swagger_auto_schema(
-      request_body=MemberSerializer(many=False),
-      responses={200: MemberSerializer(many=False)}
-  )
+  # @swagger_auto_schema(
+  #     request_body=MemberSerializer(many=False),
+  #     responses={200: MemberSerializer(many=False)}
+  # )
   def post(self, request, format=None):
     serializer = MemberSerializer(data=request.data, many=False)
     if serializer.is_valid():

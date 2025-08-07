@@ -38,7 +38,7 @@ pytz==2025.2
 PyYAML==6.0.2
 redis==6.2.0
 requests==2.32.4
-rest-framework-swagger==0.0.1
+# rest-framework-swagger==0.0.1
 service-identity==24.2.0
 sqlparse==0.5.3
 tablib==3.8.0
