@@ -18,4 +18,5 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Commande à exécuter au démarrage
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "itrasy.wsgi:application"]
+# CMD ["gunicorn", "--bind", "0.0.0.0:8000", "itrasy.wsgi:application"]
+CMD ["daphne", "-b", "0.0.0.0", "-p", "8000", "config.asgi:application"]
