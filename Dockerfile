@@ -16,8 +16,11 @@ WORKDIR /app
 COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+RUN pip install supabase
+
+EXPOSE 8080
 
 # Commande à exécuter au démarrage
-# CMD ["gunicorn", "--bind", "0.0.0.0:8000", "itrasy.wsgi:application"]
-# CMD ["daphne", "-b", "0.0.0.0", "-p", "8000", "config.asgi:application"]
-CMD ["/bin/bash", "-c", "python manage.py migrate && daphne -b 0.0.0.0 -p 8000 config.asgi:application"]
+#CMD ["/bin/bash", "-c", "python manage.py migrate && gunicorn config.wsgi"]
+CMD ["/bin/bash", "-c", "python manage.py migrate --noinput && daphne -b 0.0.0.0 -p 8080 config.asgi:application"]
+
